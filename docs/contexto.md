@@ -5,16 +5,13 @@ O crescimento do comércio eletrônico exige sistemas capazes de suportar alta d
 Este projeto propõe o desenvolvimento de um e-commerce escalável com base nos conceitos de Arquitetura de Sistemas Distribuídos, buscando estruturar o sistema de forma eficiente, confiável e preparada para expansão.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+O crescimento do comércio eletrônico tem aumentado significativamente o volume de acessos simultâneos, transações e processamento de dados em plataformas digitais. Em períodos de alta demanda, como promoções e datas comemorativas, muitos sistemas enfrentam problemas de lentidão, indisponibilidade e falhas no processamento de pedidos, impactando diretamente a experiência do usuário e os resultados do negócio.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Além disso, a necessidade de integração com diferentes tecnologias, como sistemas de pagamento, controle de estoque e serviços de entrega, torna o ambiente ainda mais complexo. Nesse contexto, empresas que atuam no comércio eletrônico precisam lidar com desafios relacionados à escalabilidade, desempenho e confiabilidade de seus sistemas.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Diante desse cenário, surge o seguinte questionamento:
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Como garantir que um sistema de e-commerce suporte alta demanda e crescimento contínuo sem comprometer desempenho e disponibilidade?
 
 ## Objetivos
 
