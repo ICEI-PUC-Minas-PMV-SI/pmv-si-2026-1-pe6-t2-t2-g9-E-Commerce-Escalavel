@@ -1,6 +1,7 @@
 # Introdução
 
 O crescimento do comércio eletrônico exige sistemas capazes de suportar alta demanda e grande volume de acessos. Para isso, é necessário utilizar arquiteturas que garantam escalabilidade, desempenho e disponibilidade.
+
 Este projeto propõe o desenvolvimento de um e-commerce escalável com base nos conceitos de Arquitetura de Sistemas Distribuídos, buscando estruturar o sistema de forma eficiente, confiável e preparada para expansão.
 
 ## Problema
