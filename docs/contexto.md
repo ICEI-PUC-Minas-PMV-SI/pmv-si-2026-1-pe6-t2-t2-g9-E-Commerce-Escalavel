@@ -36,30 +36,36 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 1. Descrição do Público-Alvo
 1.1 Clientes (Usuários Finais)
 Os clientes são usuários que acessam a plataforma com o objetivo de pesquisar produtos, salvar itens de interesse, realizar compras e avaliar produtos adquiridos.
- Características gerais:
+Características gerais:
   - Faixa etária predominantemente entre 18 e 60 anos;
   - Níveis variados de familiaridade com tecnologia;
   - Utilização majoritária de dispositivos móveis (smartphones), além de desktops;
   - Expectativa de navegação simples, rápida e intuitiva;
   - Baixa tolerância a falhas, lentidão ou indisponibilidade do sistema.
- Conhecimentos prévios e relação com tecnologia:
+
+Conhecimentos prévios e relação com tecnologia:
   - Já utilizam redes sociais, aplicativos bancários e outros e-commerces;
   - Estão habituados a processos digitais rápidos;
   - Esperam segurança no tratamento de dados pessoais e financeiros.
- Relação hierárquica:
+
+Relação hierárquica:
   - Não possuem responsabilidade administrativa;
   - Interagem com o sistema apenas como consumidores.
+    
 1.2 Administradores da Plataforma
 Os administradores são responsáveis pela gestão dos produtos, controle de estoque, acompanhamento de vendas e geração de relatórios.
- Características gerais:
+ 
+Características gerais:
   - Faixa etária média entre 25 e 55 anos;
   - Conhecimento intermediário ou avançado em informática;
   - Utilização predominante de desktop ou notebook;
   - Necessidade de informações organizadas e confiáveis.
- Conhecimentos prévios e relação com tecnologia:
+ 
+Conhecimentos prévios e relação com tecnologia:
   - Familiaridade com sistemas de gestão (ERP, sistemas administrativos);
   - Capacidade de interpretar relatórios e métricas de vendas;
   - Necessidade de interface funcional e objetiva.
+ 
  Relação hierárquica:
   - Possuem permissões ampliadas no sistema;
   - Podem atuar como gestores ou responsáveis pelo setor comercial;
