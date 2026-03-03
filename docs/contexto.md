@@ -33,16 +33,77 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+1. Descrição do Público-Alvo
+1.1 Clientes (Usuários Finais)
+Os clientes são usuários que acessam a plataforma com o objetivo de pesquisar produtos, salvar itens de interesse, realizar compras e avaliar produtos adquiridos.
+ Características gerais:
+  - Faixa etária predominantemente entre 18 e 60 anos;
+  - Níveis variados de familiaridade com tecnologia;
+  - Utilização majoritária de dispositivos móveis (smartphones), além de desktops;
+  - Expectativa de navegação simples, rápida e intuitiva;
+  - Baixa tolerância a falhas, lentidão ou indisponibilidade do sistema.
+ Conhecimentos prévios e relação com tecnologia:
+  - Já utilizam redes sociais, aplicativos bancários e outros e-commerces;
+  - Estão habituados a processos digitais rápidos;
+  - Esperam segurança no tratamento de dados pessoais e financeiros.
+ Relação hierárquica:
+  - Não possuem responsabilidade administrativa;
+  - Interagem com o sistema apenas como consumidores.
+1.2 Administradores da Plataforma
+Os administradores são responsáveis pela gestão dos produtos, controle de estoque, acompanhamento de vendas e geração de relatórios.
+ Características gerais:
+  - Faixa etária média entre 25 e 55 anos;
+  - Conhecimento intermediário ou avançado em informática;
+  - Utilização predominante de desktop ou notebook;
+  - Necessidade de informações organizadas e confiáveis.
+ Conhecimentos prévios e relação com tecnologia:
+  - Familiaridade com sistemas de gestão (ERP, sistemas administrativos);
+  - Capacidade de interpretar relatórios e métricas de vendas;
+  - Necessidade de interface funcional e objetiva.
+ Relação hierárquica:
+  - Possuem permissões ampliadas no sistema;
+  - Podem atuar como gestores ou responsáveis pelo setor comercial;
+  - Dependem da confiabilidade do sistema para tomada de decisão.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Personas
+ Persona 1 – Mariana, a Compradora Digital
+  - 27 anos
+  - Trabalha em horário comercial
+  - Utiliza principalmente smartphone
+  - Costuma realizar compras online em datas promocionais
+  - Objetivos:
+    - Encontrar produtos facilmente;
+    - Finalizar compras de forma rápida;
+    - Receber confirmação imediata do pedido.
+  - Principais dores:
+    - Sites lentos ou instáveis;
+    - Falhas no pagamento;
+    - Perda de produtos salvos no carrinho.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ Persona 2 – Carlos, o Gestor do E-commerce
+  - 38 anos
+  - Responsável pela loja virtual
+  - Utiliza notebook para gerenciamento
+  - Acompanha métricas de vendas e desempenho
+  - Objetivos:
+    - Controlar estoque com precisão;
+    - Inserir e atualizar produtos com facilidade;
+    - Acessar relatórios claros e objetivos.
+  - Principais dores:
+    - Falta de atualização automática de estoque;
+    - Dificuldade em identificar produtos mais vendidos;
+    - Instabilidade do sistema em períodos de pico.
+   
+Mapa de Stakeholders
+Além dos usuários diretos, identificamos outros stakeholders que influenciam ou são impactados pelo sistema:
+| Stakeholder               | Interesse no Sistema                     | Nível de Influência |
+| ------------------------- | ---------------------------------------- | ------------------- |
+| Clientes                  | Experiência rápida, segura e estável     | Alto                |
+| Administradores           | Gestão eficiente e relatórios confiáveis | Alto                |
+| Equipe de TI              | Manutenção, escalabilidade e segurança   | Alto                |
+| Gateways de pagamento     | Integração segura e estável              | Médio               |
+| Serviços de entrega       | Integração para envio de pedidos         | Médio               |
+| Órgãos reguladores (LGPD) | Conformidade legal e proteção de dados   | Alto                |
 
 # Especificações do Projeto
 
