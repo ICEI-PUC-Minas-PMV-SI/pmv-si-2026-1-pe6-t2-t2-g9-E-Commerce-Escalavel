@@ -1,18 +1,17 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O crescimento do comércio eletrônico exige sistemas capazes de suportar alta demanda e grande volume de acessos. Para isso, é necessário utilizar arquiteturas que garantam escalabilidade, desempenho e disponibilidade.
+
+Este projeto propõe o desenvolvimento de um e-commerce escalável com base nos conceitos de Arquitetura de Sistemas Distribuídos, buscando estruturar o sistema de forma eficiente, confiável e preparada para expansão.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+O crescimento do comércio eletrônico tem aumentado significativamente o volume de acessos simultâneos, transações e processamento de dados em plataformas digitais. Em períodos de alta demanda, como promoções e datas comemorativas, muitos sistemas enfrentam problemas de lentidão, indisponibilidade e falhas no processamento de pedidos, impactando diretamente a experiência do usuário e os resultados do negócio.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Além disso, a necessidade de integração com diferentes tecnologias, como sistemas de pagamento, controle de estoque e serviços de entrega, torna o ambiente ainda mais complexo. Nesse contexto, empresas que atuam no comércio eletrônico precisam lidar com desafios relacionados à escalabilidade, desempenho e confiabilidade de seus sistemas.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Diante desse cenário, surge o seguinte questionamento:
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Como garantir que um sistema de e-commerce suporte alta demanda e crescimento contínuo sem comprometer desempenho e disponibilidade?
 
 ## Objetivos
 
@@ -34,18 +33,78 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+1. Descrição do Público-Alvo
+1.1 Clientes (Usuários Finais)
+Os clientes são usuários que acessam a plataforma com o objetivo de pesquisar produtos, salvar itens de interesse, realizar compras e avaliar produtos adquiridos.
+ Características gerais:
+  - Faixa etária predominantemente entre 18 e 60 anos;
+  - Níveis variados de familiaridade com tecnologia;
+  - Utilização majoritária de dispositivos móveis (smartphones), além de desktops;
+  - Expectativa de navegação simples, rápida e intuitiva;
+  - Baixa tolerância a falhas, lentidão ou indisponibilidade do sistema.
+ Conhecimentos prévios e relação com tecnologia:
+  - Já utilizam redes sociais, aplicativos bancários e outros e-commerces;
+  - Estão habituados a processos digitais rápidos;
+  - Esperam segurança no tratamento de dados pessoais e financeiros.
+ Relação hierárquica:
+  - Não possuem responsabilidade administrativa;
+  - Interagem com o sistema apenas como consumidores.
+1.2 Administradores da Plataforma
+Os administradores são responsáveis pela gestão dos produtos, controle de estoque, acompanhamento de vendas e geração de relatórios.
+ Características gerais:
+  - Faixa etária média entre 25 e 55 anos;
+  - Conhecimento intermediário ou avançado em informática;
+  - Utilização predominante de desktop ou notebook;
+  - Necessidade de informações organizadas e confiáveis.
+ Conhecimentos prévios e relação com tecnologia:
+  - Familiaridade com sistemas de gestão (ERP, sistemas administrativos);
+  - Capacidade de interpretar relatórios e métricas de vendas;
+  - Necessidade de interface funcional e objetiva.
+ Relação hierárquica:
+  - Possuem permissões ampliadas no sistema;
+  - Podem atuar como gestores ou responsáveis pelo setor comercial;
+  - Dependem da confiabilidade do sistema para tomada de decisão.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Personas
+ Persona 1 – Mariana, a Compradora Digital
+  - 27 anos
+  - Trabalha em horário comercial
+  - Utiliza principalmente smartphone
+  - Costuma realizar compras online em datas promocionais
+  - Objetivos:
+    - Encontrar produtos facilmente;
+    - Finalizar compras de forma rápida;
+    - Receber confirmação imediata do pedido.
+  - Principais dores:
+    - Sites lentos ou instáveis;
+    - Falhas no pagamento;
+    - Perda de produtos salvos no carrinho.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+ Persona 2 – Carlos, o Gestor do E-commerce
+  - 38 anos
+  - Responsável pela loja virtual
+  - Utiliza notebook para gerenciamento
+  - Acompanha métricas de vendas e desempenho
+  - Objetivos:
+    - Controlar estoque com precisão;
+    - Inserir e atualizar produtos com facilidade;
+    - Acessar relatórios claros e objetivos.
+  - Principais dores:
+    - Falta de atualização automática de estoque;
+    - Dificuldade em identificar produtos mais vendidos;
+    - Instabilidade do sistema em períodos de pico.
+   
+Mapa de Stakeholders
+Além dos usuários diretos, identificamos outros stakeholders que influenciam ou são impactados pelo sistema:
+| Stakeholder               | Interesse no Sistema                     | Nível de Influência |
+| ------------------------- | ---------------------------------------- | ------------------- |
+| Clientes                  | Experiência rápida, segura e estável     | Alto                |
+| Administradores           | Gestão eficiente e relatórios confiáveis | Alto                |
+| Equipe de TI              | Manutenção, escalabilidade e segurança   | Alto                |
+| Gateways de pagamento     | Integração segura e estável              | Médio               |
+| Serviços de entrega       | Integração para envio de pedidos         | Médio               |
+| Órgãos reguladores (LGPD) | Conformidade legal e proteção de dados   | Alto                |
 
-# Especificações do Projeto
 
 ## Requisitos
 
@@ -55,15 +114,27 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001|  Permitir que o usuário e o administrador gerencie seu cadastro (cadastrar, logar, atualizar e desativar conta)  | ALTA | 
+|RF-002|  Permitir que o usuário acesse os produtos ofertados  | ALTA |
+|RF-003|  Permitir que o usuário salve uma lista de produtos de seu interesse  | BAIXA |
+|RF-004|  Permitir que o usuário efetue compra  | MÉDIA |
+|RF-005|  Após o usuário realizar uma compra, deve ser possível realizar a avaliação dos produtos comprados  | BAIXA |
+|RF-006|  O sistema deve gerenciar a quantidade de produtos em estoque atualizando a quantidade automaticamente após cada venda realizada  | MÉDIA |
+|RF-007|  Permitir que o administrador gerencie os produtos à venda (inserir, atualizar, consultar e desativar) | ALTA |
+|RF-008|  Gerar relatório para o administrador referente ao resumo de vendas e qual produto obteve maior sucesso de vendas  | BAIXA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição do Requisito  | Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Responsividade para rodar dês de um dispositivos móvel até um monitor ultrawide | MÉDIA | 
+|RNF-002| Processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Assegurar todos os processos evitando fraude ou vazamento de dados |  ALTA | 
+|RNF-004| Suportar até 500 usuários simultâneos sem perda de performance |  MÉDIA | 
+|RNF-005| Permanecer online durante 97% do tempo a partir do lançamento |  MÉDIA | 
+|RNF-006| Fácil manutenção e correção de bugs para que afete o mínimo possivel sua uzabilidade em situações criticas |  ALTA | 
+|RNF-007| Comformidade legal com a LGPD e as principais recomendações da OWASP |  ALTA | 
+|RNF-008| Assecibilidade para que pessoas com diferentes habilidades tenham facilidade para utilização |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
