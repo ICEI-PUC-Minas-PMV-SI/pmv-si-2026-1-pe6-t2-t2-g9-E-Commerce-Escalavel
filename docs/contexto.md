@@ -33,7 +33,8 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-1. Descrição do Público-Alvo
+1.Descrição do Público-Alvo
+ 
 1.1 Clientes (Usuários Finais)
 Os clientes são usuários que acessam a plataforma com o objetivo de pesquisar produtos, salvar itens de interesse, realizar compras e avaliar produtos adquiridos.
 Características gerais:
@@ -51,6 +52,7 @@ Conhecimentos prévios e relação com tecnologia:
 Relação hierárquica:
   - Não possuem responsabilidade administrativa;
   - Interagem com o sistema apenas como consumidores.
+    
     
 1.2 Administradores da Plataforma
 Os administradores são responsáveis pela gestão dos produtos, controle de estoque, acompanhamento de vendas e geração de relatórios.
@@ -71,8 +73,9 @@ Conhecimentos prévios e relação com tecnologia:
   - Podem atuar como gestores ou responsáveis pelo setor comercial;
   - Dependem da confiabilidade do sistema para tomada de decisão.
 
-Personas
- Persona 1 – Mariana, a Compradora Digital
+2.Personas
+
+ 2.1Persona 1 – Mariana, a Compradora Digital
   - 27 anos
   - Trabalha em horário comercial
   - Utiliza principalmente smartphone
@@ -86,7 +89,7 @@ Personas
     - Falhas no pagamento;
     - Perda de produtos salvos no carrinho.
 
- Persona 2 – Carlos, o Gestor do E-commerce
+ 2.2Persona 2 – Carlos, o Gestor do E-commerce
   - 38 anos
   - Responsável pela loja virtual
   - Utiliza notebook para gerenciamento
@@ -100,7 +103,8 @@ Personas
     - Dificuldade em identificar produtos mais vendidos;
     - Instabilidade do sistema em períodos de pico.
    
-Mapa de Stakeholders
+3.Mapa de Stakeholders
+
 Além dos usuários diretos, identificamos outros stakeholders que influenciam ou são impactados pelo sistema:
 | Stakeholder               | Interesse no Sistema                     | Nível de Influência |
 | ------------------------- | ---------------------------------------- | ------------------- |
