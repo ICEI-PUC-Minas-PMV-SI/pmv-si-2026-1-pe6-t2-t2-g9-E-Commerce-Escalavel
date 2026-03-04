@@ -21,17 +21,11 @@ Otimizar desempenho e tempo de resposta: Oferecer uma experiência fluida e intu
 Proporcionar ferramenta de gestão confiável: Assegurar dados atualizados, relatórios precisos e total visibilidade do processo.
 Garantir as funcionalidades essenciais para navegação, cadastro, listagem de produtos e gestão básica por parte do administrador.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
 O crescimento do comércio eletrônico aumenta a necessidade de sistemas capazes de lidar com grandes volumes de acessos, transações e integrações com serviços externos. Em períodos de alta demanda, muitos e-commerces sofrem com lentidão, falhas e indisponibilidade, prejudicando a experiência do usuário e causando perdas financeiras.
 
 Diante disso, torna-se essencial desenvolver uma arquitetura escalável, distribuída e confiável que garanta desempenho, segurança, disponibilidade contínua e preparação para o crescimento do negócio.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
