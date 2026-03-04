@@ -17,8 +17,9 @@ Como garantir que um sistema de e-commerce suporte alta demanda e crescimento co
 
 Desenvolver um sistema de e-commerce escalável, distribuído e altamente disponível, capaz de suportar grandes volumes de acessos simultâneos e assegurar desempenho, estabilidade e segurança durante todo o ciclo de uso. 
 
-Otimizar desempenho e tempo de resposta: Oferecer uma experiência fluida e intuitiva para os usuários finais,
+Otimizar desempenho e tempo de resposta: Oferecer uma experiência fluida e intuitiva para os usuários finais.
 Proporcionar ferramenta de gestão confiável: Assegurar dados atualizados, relatórios precisos e total visibilidade do processo.
+Garantir as funcionalidades essenciais para navegação, cadastro, listagem de produtos e gestão básica por parte do administrador.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
