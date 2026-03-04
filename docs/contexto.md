@@ -15,18 +15,19 @@ Como garantir que um sistema de e-commerce suporte alta demanda e crescimento co
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolver um sistema de e-commerce escalável, distribuído e altamente disponível, capaz de suportar grandes volumes de acessos simultâneos e assegurar desempenho, estabilidade e segurança durante todo o ciclo de uso. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Otimizar desempenho e tempo de resposta: Oferecer uma experiência fluida e intuitiva para os usuários finais,
+Proporcionar ferramenta de gestão confiável: Assegurar dados atualizados, relatórios precisos e total visibilidade do processo.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O crescimento do comércio eletrônico aumenta a necessidade de sistemas capazes de lidar com grandes volumes de acessos, transações e integrações com serviços externos. Em períodos de alta demanda, muitos e-commerces sofrem com lentidão, falhas e indisponibilidade, prejudicando a experiência do usuário e causando perdas financeiras.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Diante disso, torna-se essencial desenvolver uma arquitetura escalável, distribuída e confiável que garanta desempenho, segurança, disponibilidade contínua e preparação para o crescimento do negócio.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
