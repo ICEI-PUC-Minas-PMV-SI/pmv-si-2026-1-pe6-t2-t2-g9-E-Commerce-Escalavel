@@ -121,27 +121,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001|  Permitir que o usuário e o administrador gerencie seu cadastro (cadastrar, logar, atualizar e desativar conta)  | ALTA | 
-|RF-002|  Permitir que o usuário acesse os produtos ofertados  | ALTA |
-|RF-003|  Permitir que o usuário salve uma lista de produtos de seu interesse  | BAIXA |
-|RF-004|  Permitir que o usuário efetue compra  | MÉDIA |
-|RF-005|  Após o usuário realizar uma compra, deve ser possível realizar a avaliação dos produtos comprados  | BAIXA |
-|RF-006|  O sistema deve gerenciar a quantidade de produtos em estoque atualizando a quantidade automaticamente após cada venda realizada  | MÉDIA |
-|RF-007|  Permitir que o administrador gerencie os produtos à venda (inserir, atualizar, consultar e desativar) | ALTA |
-|RF-008|  Gerar relatório para o administrador referente ao resumo de vendas e qual produto obteve maior sucesso de vendas  | BAIXA |
+|RF-001|  Permitir que o usuário e o administrador gerenciem seu cadastro (cadastrar, logar, atualizar e desativar conta)  | ALTA |
+|RF-002|  Permitir que o usuário salve uma lista de produtos de seu interesse  | BAIXA |
+|RF-003|  Permitir que o usuário efetue compras  | MÉDIA |
+|RF-004|  Após o usuário realizar uma compra, deve ser possível realizar a avaliação dos produtos comprados  | BAIXA |
+|RF-005|  Realizar a gestão de estoque  | MÉDIA |
+|RF-006|  Permitir que o administrador gerencie os produtos (inserir, atualizar, consultar e desativar) | ALTA |
+|RF-007|  Gerar relatório para o administrador referente ao resumo de vendas e qual produto obteve maior sucesso de vendas  | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  | Prioridade |
 |-------|-------------------------|----|
-|RNF-001| Responsividade para rodar dês de um dispositivos móvel até um monitor ultrawide | MÉDIA | 
+|RNF-001| O sistema deve ser responsivo para telas de 320px até 2560px | MÉDIA | 
 |RNF-002| Processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| Assegurar todos os processos evitando fraude ou vazamento de dados |  ALTA | 
-|RNF-004| Suportar até 500 usuários simultâneos sem perda de performance |  MÉDIA | 
-|RNF-005| Permanecer online durante 97% do tempo a partir do lançamento |  MÉDIA | 
-|RNF-006| Fácil manutenção e correção de bugs para que afete o mínimo possivel sua uzabilidade em situações criticas |  ALTA | 
-|RNF-007| Comformidade legal com a LGPD e as principais recomendações da OWASP |  ALTA | 
-|RNF-008| Assecibilidade para que pessoas com diferentes habilidades tenham facilidade para utilização |  BAIXA | 
+|RNF-003| Suportar até 500 usuários simultâneos sem perda de performance |  MÉDIA | 
+|RNF-004| Permanecer online durante 97% do tempo a partir do lançamento |  MÉDIA | 
+|RNF-005| Conformidade legal com a LGPD e as principais recomendações da OWASP |  ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
