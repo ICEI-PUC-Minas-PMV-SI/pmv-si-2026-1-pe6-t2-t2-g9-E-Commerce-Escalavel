@@ -14,12 +14,10 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * [Luís Fernando Moura Santos](docs/atas/aluno2.md)
 * [Paola Marques Braga](docs/atas/aluno3.md)
 * [Pedro Augusto Teixeira Silva](docs/atas/aluno4.md)
-* [Nome completo do aluno 5](docs/atas/aluno5.md)
-* [Nome completo do aluno 6](docs/atas/aluno6.md)
 
 ## Orientador
 
-* Nome completo do professor 1
+* Kleber Jacques Ferreira de Souza
 
 ## 📊 Relatório de Contribuições
 
