@@ -170,24 +170,24 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 > - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 # Catálogo de Serviços
-# 1 - Serviço de Catálogo de Produtos
+### 1 - Serviço de Catálogo de Produtos
 Disponibiliza ao usuário a visualização dos produtos ofertados na plataforma.
 - Exibir lista de produtos disponíveis.
 - Apresentar detalhes do produto (preço, descrição, imagem, categoria).
 - Permitir busca ou filtragem.
 
-# 2 - Serviço de Lista de Favoritos
+### 2 - Serviço de Lista de Favoritos
 Permite ao usuário salvar produtos de interesse para consulta futura.
 - Adicionar produtos aos favoritos.
 - Remover produtos da lista.
 - Visualizar lista de itens salvos.
 
-# 3 - Serviço de Avaliação de Produtos
+### 3 - Serviço de Avaliação de Produtos
 Permite que o usuário deixe feedback sobre produtos adquiridos.
 - Registrar avaliações (nota e comentário).
 - Listar avaliações existentes por produto.
 
-# 4 - Serviço Unificado de Gestão de Produtos e Estoque (Administrador)
+### 4 - Serviço Unificado de Gestão de Produtos e Estoque (Administrador)
 Reúne as ações de administração de produtos e controle de estoque em um único serviço integrado.
 - Inserir novos produtos na plataforma.
 - Editar informações de produtos existentes.
@@ -197,7 +197,7 @@ Reúne as ações de administração de produtos e controle de estoque em um ún
 - Exibir estoque atual.
 - Impedir compra de itens indisponíveis.
 
-# 5 - Serviço de Relatórios para Administradores
+### 5 - Serviço de Relatórios para Administradores
 Fornece informações consolidadas sobre o desempenho de vendas.
 - Exibir resumo das vendas.
 - Identificar produtos mais vendidos.
