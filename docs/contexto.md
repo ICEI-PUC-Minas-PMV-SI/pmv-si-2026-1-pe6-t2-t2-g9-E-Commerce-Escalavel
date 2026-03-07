@@ -1,17 +1,21 @@
 # Introdução
 
-O crescimento do comércio eletrônico exige sistemas capazes de suportar alta demanda e grande volume de acessos. Para isso, é necessário utilizar arquiteturas que garantam escalabilidade, desempenho e disponibilidade.
+O mercado de jogos eletrônicos tem apresentado crescimento significativo nos últimos anos, tornando-se um dos setores mais relevantes da indústria de entretenimento digital. De acordo com relatório da consultoria Newzoo, o mercado global de games deve atingir aproximadamente US$ 197 bilhões em receita em 2025, representando um crescimento de cerca de 7,5% em relação ao ano anterior (NEWZOO, 2025). Esse crescimento demonstra a forte expansão do setor e o aumento contínuo do consumo de jogos eletrônicos em diferentes plataformas.
 
-Este projeto propõe o desenvolvimento de um e-commerce escalável com base nos conceitos de Arquitetura de Sistemas Distribuídos, buscando estruturar o sistema de forma eficiente, confiável e preparada para expansão.
+Com o aumento da popularidade dos videogames, cresce também a demanda por plataformas de comércio eletrônico especializadas na venda de jogos. Embora o mercado digital tenha se expandido significativamente, a venda de jogos em mídia física ainda mantém relevância entre consumidores, especialmente entre colecionadores e jogadores que preferem possuir o produto físico.
+
+Nesse contexto, o desenvolvimento de plataformas de e-commerce voltadas para jogos exige sistemas capazes de lidar com grande volume de acessos, consultas de produtos e processamento de pedidos. Dessa forma, torna-se importante a utilização de arquiteturas tecnológicas capazes de garantir escalabilidade, desempenho e disponibilidade.
+
+Diante disso, este projeto propõe o desenvolvimento de um e-commerce escalável voltado para a venda de jogos em mídia física, utilizando conceitos de Arquitetura de Sistemas Distribuídos, com o objetivo de estruturar uma solução eficiente e preparada para atender ao crescimento da demanda.
 
 ## Problema
-O crescimento do comércio eletrônico tem aumentado significativamente o volume de acessos simultâneos, transações e processamento de dados em plataformas digitais. Em períodos de alta demanda, como promoções e datas comemorativas, muitos sistemas enfrentam problemas de lentidão, indisponibilidade e falhas no processamento de pedidos, impactando diretamente a experiência do usuário e os resultados do negócio.
+O crescimento do mercado de jogos eletrônicos e do comércio eletrônico tem aumentado a demanda por plataformas especializadas na venda de jogos. Mesmo com o avanço da distribuição digital, a venda de jogos em mídia física continua relevante para muitos consumidores, especialmente entre colecionadores e jogadores que valorizam a posse do produto físico.
 
-Além disso, a necessidade de integração com diferentes tecnologias, como sistemas de pagamento, controle de estoque e serviços de entrega, torna o ambiente ainda mais complexo. Nesse contexto, empresas que atuam no comércio eletrônico precisam lidar com desafios relacionados à escalabilidade, desempenho e confiabilidade de seus sistemas.
+Nesse cenário, plataformas de e-commerce voltadas para esse tipo de produto precisam lidar com desafios como o aumento do número de acessos simultâneos, consultas de produtos e processamento de pedidos. Em períodos de grande demanda, como lançamentos de jogos populares ou promoções, esses sistemas podem enfrentar dificuldades relacionadas ao desempenho, disponibilidade e confiabilidade.
 
-Diante desse cenário, surge o seguinte questionamento:
+Diante desse contexto, surge o seguinte questionamento:
 
-Como garantir que um sistema de e-commerce suporte alta demanda e crescimento contínuo sem comprometer desempenho e disponibilidade?
+Como garantir que uma plataforma de e-commerce voltada para a venda de jogos em mídia física seja capaz de suportar alta demanda de usuários e transações sem comprometer o desempenho e a disponibilidade do sistema?
 
 ## Objetivos
 
@@ -219,3 +223,8 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 ## Hospedagem
 
 Explique como a hospedagem e o lançamento da plataforma foi feita.
+
+## Referências
+
+NEWZOO. Global Games Market Report and Forecast. 2025. Disponível em: https://newzoo.com/resources/blog/year-in-review-2025-to-date
+. Acesso em: 7 mar. 2026.
