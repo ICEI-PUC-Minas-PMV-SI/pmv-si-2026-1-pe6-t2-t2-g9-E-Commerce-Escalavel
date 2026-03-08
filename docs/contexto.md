@@ -222,7 +222,11 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A plataforma de e-commerce será hospedada em um ambiente de computação em nuvem AWS, o que permite maior disponibilidade, segurança e escalabilidade do sistema. A utilização de serviços em nuvem possibilita que a aplicação suporte diferentes níveis de acesso dos usuários, mantendo o desempenho mesmo em períodos de maior demanda.
+
+Após o desenvolvimento e a realização de testes para verificar o funcionamento das funcionalidades principais, a plataforma será publicada em um servidor web, tornando-se acessível pela internet. Dessa forma, os usuários poderão acessar o sistema por meio de navegadores para consultar produtos, visualizar jogos disponíveis e realizar compras.
+
+O lançamento da plataforma ocorre quando o sistema é disponibilizado no ambiente de produção, permitindo que o público utilize a aplicação de forma estável e segura.
 
 ## Referências
 
