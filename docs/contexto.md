@@ -119,7 +119,7 @@ Além dos usuários diretos, identificamos outros stakeholders que influenciam o
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+<!-- As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada. -->
 
 ### Requisitos Funcionais
 
@@ -129,9 +129,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002|  Permitir que o usuário salve uma lista de produtos de seu interesse  | BAIXA |
 |RF-003|  Permitir que o usuário efetue compras  | MÉDIA |
 |RF-004|  Após o usuário realizar uma compra, deve ser possível realizar a avaliação dos produtos comprados  | BAIXA |
-|RF-005|  Realizar a gestão de estoque  | MÉDIA |
-|RF-006|  Permitir que o administrador gerencie os produtos (inserir, atualizar, consultar e desativar) | ALTA |
-|RF-007|  Gerar relatório para o administrador referente ao resumo de vendas e qual produto obteve maior sucesso de vendas  | BAIXA |
+|RF-005|  Permitir que o administrador gerencie os produtos (inserir, atualizar, consultar e desativar) | ALTA |
+|RF-006|  Gerar relatório para o administrador referente ao resumo de vendas e qual produto obteve maior sucesso de vendas  | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -143,7 +142,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-004| Permanecer online durante 97% do tempo a partir do lançamento |  MÉDIA | 
 |RNF-005| Conformidade legal com a LGPD e as principais recomendações da OWASP |  ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+<!-- Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 - [Requisitos Funcionais
  (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
@@ -156,7 +155,7 @@ Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Cla
   dispositivos iOS e Android).
 Lembre-se que cada requisito deve corresponder à uma e somente uma
 característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+todos os aspectos capturados nas Histórias de Usuário foram cobertos. -->
 
 ## Restrições
 
@@ -167,11 +166,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
+<!-- Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
 > **Links Úteis**:
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/) -->
 
 # Catálogo de Serviços
 ### 1 - Serviço de Catálogo de Produtos
