@@ -208,23 +208,20 @@ Fornece informações consolidadas sobre o desempenho de vendas.
 
 # Arquitetura da Solução
 
-<!--Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)-->
-
-<img width="750" height="500" alt="Clientes" src="https://github.com/user-attachments/assets/ec48305f-f6ca-4ef6-b83c-7801244c8c64" />
-
+![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
 
 ## Tecnologias Utilizadas
 
 <!--Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
 Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.-->
-- Linguagens: PHP, SQL, HTML5, CSS3 e JavaScript.
+- Linguagens: ASP.NET, SQL, HTML5, CSS3 e JavaScript.
 - Frameworks e Bibliotecas: Bootstrap 5.
 - Banco de Dados: MySQL.
-- Ambiente e IDE: VS Code, WampServer.
-- Ferramentas e Serviços: Git, GitHub e Figma MySQL Workbench.
+- Ambiente e IDE: Visual Studio 2022.
+- Ferramentas e Serviços: Git e GitHub.
 
 <img width="1408" height="768" alt="InteracaoDoUsuarioESistema" src="https://github.com/user-attachments/assets/028946c4-e6da-4b33-b103-be94da04d789" />
 
