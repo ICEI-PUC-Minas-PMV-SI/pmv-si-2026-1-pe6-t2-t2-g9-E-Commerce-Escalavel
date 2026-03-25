@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 23/03/2026 00:09
+**Última atualização:** 25/03/2026 22:38
 
 ---
 
@@ -9,24 +9,24 @@
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
 | CassioVenutoMonteiro  |         8 |        60 |        43 |          3 |              8 |               3 |
-| LuisMoura1            |         8 |        37 |        25 |          3 |              8 |               3 |
+| LuisMoura1            |        10 |        43 |        34 |          3 |             10 |               3 |
 | Pedro Teixeira        |         5 |        97 |        26 |          3 |              5 |               3 |
-| github-actions[bot]   |         1 |        26 |        31 |          3 |              1 |               1 |
+| github-actions[bot]   |         2 |        34 |        36 |          3 |              2 |               1 |
 | github-classroom[bot] |         1 |      2152 |         0 |         45 |              1 |              13 |
 | paolabraga            |         9 |        53 |        29 |          3 |              9 |               3 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-03-16**: github-actions[bot]: 1
+**2026-03-18**: LuisMoura1: 2, github-actions[bot]: 2
 
-**2026-03-09**: CassioVenutoMonteiro: 2, LuisMoura1: 2, Pedro Teixeira: 1, paolabraga: 2
+**2026-03-11**: CassioVenutoMonteiro: 2, Pedro Teixeira: 1
 
-**2026-03-02**: CassioVenutoMonteiro: 4, LuisMoura1: 2, Pedro Teixeira: 4, paolabraga: 6
+**2026-03-04**: CassioVenutoMonteiro: 3, LuisMoura1: 4, paolabraga: 8
 
-**2026-02-23**: CassioVenutoMonteiro: 2, LuisMoura1: 4, paolabraga: 1
+**2026-02-25**: CassioVenutoMonteiro: 3, LuisMoura1: 4, Pedro Teixeira: 4, paolabraga: 1
 
-**2026-02-16**: github-classroom[bot]: 1
+**2026-02-18**: github-classroom[bot]: 1
 
 
 
