@@ -208,9 +208,11 @@ Fornece informações consolidadas sobre o desempenho de vendas.
 
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+<!--Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
+![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)-->
+
+<img width="1536" height="1024" alt="ChatGPT Image 25 de mar  de 2026, 19_52_19" src="https://github.com/user-attachments/assets/984322ce-8f0a-4d25-9263-b3b411b211af" />
 
 ## Tecnologias Utilizadas
 
@@ -223,8 +225,7 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 - Ambiente e IDE: Visual Studio 2022.
 - Ferramentas e Serviços: Git e GitHub.
 
-<img width="1408" height="768" alt="InteracaoDoUsuarioESistema" src="https://github.com/user-attachments/assets/028946c4-e6da-4b33-b103-be94da04d789" />
-
+<img width="1536" height="1024" alt="RESPOSTA DE DADOS SQL" src="https://github.com/user-attachments/assets/50e2c5c0-d362-4e92-a099-90646641c7e4" />
 
 ## Hospedagem
 
