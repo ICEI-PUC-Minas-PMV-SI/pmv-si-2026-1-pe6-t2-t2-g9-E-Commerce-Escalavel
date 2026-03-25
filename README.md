@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# E-Commerce de Mídia Física
 
 `CURSO: Sistemas de Informação`
 
