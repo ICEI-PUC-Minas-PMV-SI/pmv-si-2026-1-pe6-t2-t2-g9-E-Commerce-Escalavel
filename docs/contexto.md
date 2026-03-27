@@ -212,7 +212,7 @@ Fornece informações consolidadas sobre o desempenho de vendas.
 
 ![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)-->
 
-<img width="1536" height="1024" alt="ChatGPT Image 25 de mar  de 2026, 19_52_19" src="https://github.com/user-attachments/assets/984322ce-8f0a-4d25-9263-b3b411b211af" />
+<img width="1536" height="1024" alt="d1717fe1-5208-49f2-8c86-325da29e7c43" src="https://github.com/user-attachments/assets/c7cce745-5b11-4aa7-b253-7dc2b664bf8e" />
 
 ## Tecnologias Utilizadas
 
