@@ -212,7 +212,10 @@ Fornece informações consolidadas sobre o desempenho de vendas.
 
 ![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)-->
 
-<img width="1536" height="1024" alt="d1717fe1-5208-49f2-8c86-325da29e7c43" src="https://github.com/user-attachments/assets/c7cce745-5b11-4aa7-b253-7dc2b664bf8e" />
+<!-- <img width="1536" height="1024" alt="d1717fe1-5208-49f2-8c86-325da29e7c43" src="https://github.com/user-attachments/assets/c7cce745-5b11-4aa7-b253-7dc2b664bf8e" /> -->
+
+<img width="1000" height="750" alt="Clientes (1)" src="https://github.com/user-attachments/assets/11f1aec2-e2b1-4950-8f18-7bd5153eb4b1" />
+
 
 ## Tecnologias Utilizadas
 
