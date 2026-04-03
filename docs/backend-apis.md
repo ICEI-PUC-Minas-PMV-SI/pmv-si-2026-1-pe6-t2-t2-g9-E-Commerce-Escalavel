@@ -190,13 +190,21 @@ A comunicação entre o frontend e a API deve ocorrer por meio de conexões segu
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
+A implantação da aplicação distribuída em ambiente de produção envolve a preparação da infraestrutura necessária para garantir desempenho, disponibilidade e segurança adequados ao funcionamento da plataforma de e-commerce. Para isso, são definidos requisitos de hardware e software, bem como a configuração do ambiente de hospedagem e os procedimentos de deploy.
 
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+### Requisitos de hardware e software
+Para a execução da aplicação em produção, é necessária uma infraestrutura com recursos compatíveis com a demanda esperada de usuários simultâneos. O ambiente deve contar com servidores capazes de executar a aplicação backend desenvolvida em ASP.NET, bem como o banco de dados MySQL para persistência das informações. O sistema operacional do servidor deve ser compatível com a plataforma .NET e com o servidor de banco de dados adotado.
+Do ponto de vista de software, é necessário ter instalado o runtime do .NET, o servidor web responsável por hospedar a aplicação, além do sistema gerenciador de banco de dados MySQL. Também é recomendado o uso de ferramentas de monitoramento e controle de logs para acompanhamento do funcionamento do sistema em produção.
+
+### Plataforma de hospedagem
+A aplicação será hospedada em um ambiente de computação em nuvem utilizando a Amazon Web Services (AWS). A escolha dessa plataforma se justifica pela possibilidade de escalabilidade, alta disponibilidade e facilidade de manutenção da infraestrutura. O uso de serviços em nuvem permite ajustar os recursos de acordo com a demanda de acesso, garantindo melhor desempenho mesmo em períodos de pico.
+
+### Configuração do ambiente
+A configuração do ambiente de implantação envolve a instalação de todas as dependências necessárias para a execução da aplicação, incluindo o runtime do ASP.NET e o banco de dados MySQL. Além disso, devem ser configuradas variáveis de ambiente responsáveis por informações sensíveis, como dados de conexão com o banco, evitando sua exposição direta no código-fonte.
+O banco de dados deve ser criado e estruturado conforme o modelo relacional definido na fase de modelagem, assegurando a correta persistência dos dados de usuários, produtos, pedidos, avaliações e favoritos.
+
+### Deploy da aplicação
+Após a configuração do ambiente, o processo de deploy consiste na publicação da aplicação backend no servidor configurado na AWS, disponibilizando a API para acesso externo. O frontend, por sua vez, será integrado à API para consumo das funcionalidades oferecidas pelo sistema. O processo de deploy segue as orientações da plataforma de hospedagem escolhida, garantindo que a aplicação esteja acessível pela internet.
 
 ## Testes
 
