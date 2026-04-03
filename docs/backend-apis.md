@@ -31,18 +31,18 @@ A persistência dos dados será realizada por meio do banco de dados MySQL, util
 
 ## API Endpoints
 
-[Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
+Esta seção descreve os principais endpoints da API REST da plataforma de e-commerce de jogos em mídia física. Os endpoints foram definidos com base nas entidades e funcionalidades do sistema, permitindo a comunicação entre o frontend e o backend. Os exemplos apresentados contemplam operações essenciais para navegação, compra, avaliação e personalização da experiência do usuário.
 
-### Endpoint 1
+### Endpoint 1: Listar Produtos
 - Método: GET
-- URL: /endpoint1
+- URL: /produtos
 - Parâmetros:
-  - param1: [descrição]
+  - param1: Retorna a lista de jogos disponíveis no catálogo da plataforma.
 - Resposta:
   - Sucesso (200 OK)
     ```
     {
-      "message": "Success",
+      "message": "Produtos listados com sucesso",
       "data": {
         ...
       }
@@ -51,16 +51,142 @@ A persistência dos dados será realizada por meio do banco de dados MySQL, util
   - Erro (4XX, 5XX)
     ```
     {
-      "message": "Error",
+      "message": "Erro ao listar produtos",
       "error": {
         ...
       }
     }
     ```
 
+### Endpoint 2: Cadastrar Usuário
+- Método: POST
+- URL: /usuários
+- Parâmetros:
+  - param1: Permite o cadastro de um novo usuário na plataforma.
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+      "message": "Usuário cadastrado com sucesso",
+      "data": {
+        ...
+      }
+    }
+    ```
+  - Erro (4XX, 5XX)
+    ```
+    {
+      "message": "Erro ao cadastrar usuário",
+      "error": {
+        ...
+      }
+    }
+    ```
+
+### Endpoint 3: Criar Pedido
+- Método: POST
+- URL: /pedidos
+- Parâmetros:
+  - param1: Registra uma nova compra realizada por um usuário.
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+      "message": "Pedido realizado com sucesso",
+      "data": {
+        ...
+      }
+    }
+    ```
+  - Erro (4XX, 5XX)
+    ```
+    {
+      "message": "Erro ao realizar pedido",
+      "error": {
+        ...
+      }
+    }
+    ```
+
+### Endpoint 4: Avaliar Produto
+- Método: POST
+- URL: /avaliacoes
+- Parâmetros:
+  - param1: Permite que um usuário registre uma avaliação para um produto adquirido.
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+      "message": "Avaliação registrada com sucesso",
+      "data": {
+        ...
+      }
+    }
+    ```
+  - Erro (4XX, 5XX)
+    ```
+    {
+      "message": "Erro ao realizar avaliação",
+      "error": {
+        ...
+      }
+    }
+    ```
+
+### Endpoint 5: Adicionar Produto aos Favoritos
+- Método: POST
+- URL: /favoritos
+- Parâmetros:
+  - param1: Adiciona um produto à lista de favoritos do usuário.
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+      "message": "Produto adicionado aos favoritos",
+      "data": {
+        ...
+      }
+    }
+    ```
+  - Erro (4XX, 5XX)
+    ```
+    {
+      "message": "Erro ao favoritar produto",
+      "error": {
+        ...
+      }
+    }
+    ```
+
+### Endpoint 5: Listar Favoritos do Usuário
+- Método: POST
+- URL: /usuários/favoritos
+- Parâmetros:
+  - param1: Retorna a lista de produtos favoritados por um usuário.
+- Resposta:
+  - Sucesso (200 OK)
+    ```
+    {
+      "message": "Favoritos listados com sucesso",
+      "data": {
+        ...
+      }
+    }
+    ```
+  - Erro (4XX, 5XX)
+    ```
+    {
+      "message": "Erro ao listar favoritos",
+      "error": {
+        ...
+      }
+    }
+    ```
+        
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+A segurança da plataforma de e-commerce é um aspecto essencial, considerando o tratamento de dados pessoais dos usuários e o processamento de operações de compra. Para garantir acesso controlado ao sistema, devem ser adotados mecanismos de autenticação, assegurando que apenas usuários devidamente identificados utilizem as funcionalidades disponíveis, além da aplicação de autorização baseada em perfis para restringir operações administrativas.
+A comunicação entre o frontend e a API deve ocorrer por meio de conexões seguras (HTTPS), protegendo os dados transmitidos. Adicionalmente, a validação das informações recebidas e a adoção de boas práticas recomendadas pela OWASP contribuem para a prevenção de ataques comuns, garantindo a integridade do sistema e a conformidade com a Lei Geral de Proteção de Dados (LGPD).
 
 ## Implantação
 
