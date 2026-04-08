@@ -240,11 +240,6 @@ Ao tentar logar com a senha errada
 O login não é efetuado
 <img width="1760" height="575" alt="Captura de tela 2026-04-08 204449" src="https://github.com/user-attachments/assets/f5e2d5b8-87a7-4ae7-a584-cef8a3695968" />
 
-1.3 Atualizar usuário
-
-Teste 5 — Atualizar nome usuario
-
-
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
