@@ -208,6 +208,43 @@ Após a configuração do ambiente, o processo de deploy consiste na publicaçã
 
 ## Testes
 
+Testes manuais
+
+1.1 Cadastro de usuário
+
+Teste 1 — Cadastro válido
+
+Ao tentar cadastrar um usuário
+<img width="1746" height="336" alt="Captura de tela 2026-04-08 202820" src="https://github.com/user-attachments/assets/a930f504-858f-424b-8ea2-89888b88a716" />
+O cadastro de usuário foi concluído com sucesso
+<img width="1761" height="655" alt="Captura de tela 2026-04-08 202910" src="https://github.com/user-attachments/assets/d0eff05f-3404-4860-840a-e2baf4639e0f" />
+
+Teste 2 — Email duplicado
+
+Ao tentar fazer o cadastro novamente com as mesmas informações, o cadastro não é concluído
+<img width="1766" height="570" alt="Captura de tela 2026-04-08 202933" src="https://github.com/user-attachments/assets/8ab7af0a-87fd-434e-92f1-f15e9c916152" />
+
+1.2 Login
+
+Teste 3 — Login válido
+
+Ao tentar fazer o login de usuário
+<img width="1761" height="306" alt="Captura de tela 2026-04-08 203700" src="https://github.com/user-attachments/assets/6c73f0b2-16d0-4a49-aae9-f20ab3c642cd" />
+O login é efetuado
+<img width="1759" height="519" alt="Captura de tela 2026-04-08 203721" src="https://github.com/user-attachments/assets/112e5074-465e-426f-bd5f-5f897f7854b4" />
+
+Teste 4 — Senha errada
+
+Ao tentar logar com a senha errada
+<img width="1750" height="282" alt="Captura de tela 2026-04-08 204432" src="https://github.com/user-attachments/assets/836b6051-9ba0-4a20-8566-413e1967399f" />
+O login não é efetuado
+<img width="1760" height="575" alt="Captura de tela 2026-04-08 204449" src="https://github.com/user-attachments/assets/f5e2d5b8-87a7-4ae7-a584-cef8a3695968" />
+
+1.3 Atualizar usuário
+
+Teste 5 — Atualizar nome usuario
+
+
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
