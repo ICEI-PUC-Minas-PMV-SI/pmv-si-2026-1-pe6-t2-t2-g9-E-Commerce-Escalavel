@@ -214,35 +214,32 @@ Após a configuração do ambiente, o processo de deploy consiste na publicaçã
 
 Cadastro de usuário
 | Caso | Entrada | Resultado esperado |
-| :--- | :---: | ---: |
+| :---: | :---: | :---: |
 | Cadastro válido | Dados corretos | Usuário criado |
 | Email duplicado | Mesmo email | Erro |
 
 <img width="1087" height="833" alt="Captura de tela 2026-04-10 161837" src="https://github.com/user-attachments/assets/1a31d096-4bb1-43a1-b158-3246bd3d6156" />
 <img width="1093" height="625" alt="Captura de tela 2026-04-10 161905" src="https://github.com/user-attachments/assets/31342e4e-8020-4c8b-8e41-888a54632b00" />
 
-
 Login
 | Caso | Entrada | Resultado esperado |
-| :--- | :---: | ---: |
+| :---: | :---: | :---: |
 | Login válido | Dados corretos | Sucesso |
 | Senha errada | Senha incorreta | Erro |
 
 <img width="1090" height="707" alt="Captura de tela 2026-04-10 162210" src="https://github.com/user-attachments/assets/93b65a60-4c0e-495e-adc6-ce258c92220e" />
 <img width="1089" height="620" alt="Captura de tela 2026-04-10 162247" src="https://github.com/user-attachments/assets/6a1f7e53-ec38-4d84-b5f1-40dda0991ade" />
 
-
 Atualização
 | Caso | Resultado esperado |
-| :--- | :---: |
+| :---: | :---: |
 | Atualizar dados | Dados atualizados |
 
 <img width="1086" height="623" alt="Captura de tela 2026-04-10 162420" src="https://github.com/user-attachments/assets/a617371e-38e6-427e-a946-b3075308566f" />
 
-
 Desativação
 | Caso | Resultado esperado |
-| :--- | :---: |
+| :---: | :---: |
 | Desativar conta | Conta desativada |
 
 <img width="1090" height="627" alt="Captura de tela 2026-04-10 162657" src="https://github.com/user-attachments/assets/eee8c132-a544-4bb0-b2db-6f9b7b701374" />
