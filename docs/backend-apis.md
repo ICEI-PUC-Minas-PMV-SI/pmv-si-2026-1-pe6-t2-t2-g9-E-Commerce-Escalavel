@@ -244,6 +244,13 @@ Desativação
 
 <img width="1090" height="627" alt="Captura de tela 2026-04-10 162657" src="https://github.com/user-attachments/assets/eee8c132-a544-4bb0-b2db-6f9b7b701374" />
 
+Gerar Relatório de Vendas
+| Caso | Resultado esperado |
+| :---: | :---: |
+| Solicitação de Relatório | Relatório exibido com total de vendas e produto mais vendido |
+
+<img width="1085" height="810" alt="Captura de tela 2026-04-10 173035" src="https://github.com/user-attachments/assets/04278ddd-a22e-40be-939b-5d94eb27b5e0" />
+
 ### 3. Testes Unitários
 
 ### 4. Testes de Integração
