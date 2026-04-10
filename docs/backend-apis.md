@@ -208,9 +208,9 @@ Após a configuração do ambiente, o processo de deploy consiste na publicaçã
 
 ## Testes
 
-# 1. Estratégia de Testes
+### 1. Estratégia de Testes
 
-# 2. Casos de Teste
+### 2. Casos de Teste
 
 Cadastro de usuário
 | Caso | Entrada | Resultado esperado |
@@ -244,13 +244,13 @@ Desativação
 
 <img width="1090" height="627" alt="Captura de tela 2026-04-10 162657" src="https://github.com/user-attachments/assets/eee8c132-a544-4bb0-b2db-6f9b7b701374" />
 
-# 3. Testes Unitários
+### 3. Testes Unitários
 
-# 4. Testes de Integração
+### 4. Testes de Integração
 
-# 5. Testes de Carga
+### 5. Testes de Carga
 
-# 6. Resultados
+### 6. Resultados
 
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
 
