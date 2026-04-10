@@ -250,8 +250,6 @@ Desativação
 
 ### 5. Testes de Carga
 
-### 6. Resultados
-
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
