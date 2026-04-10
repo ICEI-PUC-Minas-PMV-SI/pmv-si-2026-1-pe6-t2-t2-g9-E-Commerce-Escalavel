@@ -208,37 +208,49 @@ Após a configuração do ambiente, o processo de deploy consiste na publicaçã
 
 ## Testes
 
-Testes manuais
+# 1. Estratégia de Testes
 
-1.1 Cadastro de usuário
+# 2. Casos de Teste
 
-Teste 1 — Cadastro válido
+Cadastro de usuário
+| Caso | Entrada | Resultado esperado |
+| :--- | :---: | ---: |
+| Cadastro válido | Dados corretos | Usuário criado |
+| Email duplicado | Mesmo email | Erro |
 
-Ao tentar cadastrar um usuário
-<img width="1746" height="336" alt="Captura de tela 2026-04-08 202820" src="https://github.com/user-attachments/assets/a930f504-858f-424b-8ea2-89888b88a716" />
-O cadastro de usuário foi concluído com sucesso
-<img width="1761" height="655" alt="Captura de tela 2026-04-08 202910" src="https://github.com/user-attachments/assets/d0eff05f-3404-4860-840a-e2baf4639e0f" />
+<img width="1087" height="833" alt="Captura de tela 2026-04-10 161837" src="https://github.com/user-attachments/assets/1a31d096-4bb1-43a1-b158-3246bd3d6156" />
+<img width="1093" height="625" alt="Captura de tela 2026-04-10 161905" src="https://github.com/user-attachments/assets/31342e4e-8020-4c8b-8e41-888a54632b00" />
 
-Teste 2 — Email duplicado
+Login
+| Caso | Entrada | Resultado esperado |
+| :--- | :---: | ---: |
+| Login válido | Dados corretos | Sucesso |
+| Senha errada | Senha incorreta | Erro |
 
-Ao tentar fazer o cadastro novamente com as mesmas informações, o cadastro não é concluído
-<img width="1766" height="570" alt="Captura de tela 2026-04-08 202933" src="https://github.com/user-attachments/assets/8ab7af0a-87fd-434e-92f1-f15e9c916152" />
+<img width="1090" height="707" alt="Captura de tela 2026-04-10 162210" src="https://github.com/user-attachments/assets/93b65a60-4c0e-495e-adc6-ce258c92220e" />
+<img width="1089" height="620" alt="Captura de tela 2026-04-10 162247" src="https://github.com/user-attachments/assets/6a1f7e53-ec38-4d84-b5f1-40dda0991ade" />
 
-1.2 Login
+Atualização
+| Caso | Resultado esperado |
+| :--- | :---: |
+| Atualizar dados | Dados atualizados |
 
-Teste 3 — Login válido
+<img width="1086" height="623" alt="Captura de tela 2026-04-10 162420" src="https://github.com/user-attachments/assets/a617371e-38e6-427e-a946-b3075308566f" />
 
-Ao tentar fazer o login de usuário
-<img width="1761" height="306" alt="Captura de tela 2026-04-08 203700" src="https://github.com/user-attachments/assets/6c73f0b2-16d0-4a49-aae9-f20ab3c642cd" />
-O login é efetuado
-<img width="1759" height="519" alt="Captura de tela 2026-04-08 203721" src="https://github.com/user-attachments/assets/112e5074-465e-426f-bd5f-5f897f7854b4" />
+Desativação
+| Caso | Resultado esperado |
+| :--- | :---: |
+| Desativar conta | Conta desativada |
 
-Teste 4 — Senha errada
+<img width="1090" height="627" alt="Captura de tela 2026-04-10 162657" src="https://github.com/user-attachments/assets/eee8c132-a544-4bb0-b2db-6f9b7b701374" />
 
-Ao tentar logar com a senha errada
-<img width="1750" height="282" alt="Captura de tela 2026-04-08 204432" src="https://github.com/user-attachments/assets/836b6051-9ba0-4a20-8566-413e1967399f" />
-O login não é efetuado
-<img width="1760" height="575" alt="Captura de tela 2026-04-08 204449" src="https://github.com/user-attachments/assets/f5e2d5b8-87a7-4ae7-a584-cef8a3695968" />
+# 3. Testes Unitários
+
+# 4. Testes de Integração
+
+# 5. Testes de Carga
+
+# 6. Resultados
 
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
 
