@@ -208,7 +208,7 @@ Após a configuração do ambiente, o processo de deploy consiste na publicaçã
 
 ## Testes
 
-### 1. Estratégia de Testes
+### 1. Estratégia de Teste
 
 ### 2. Casos de Teste
 
