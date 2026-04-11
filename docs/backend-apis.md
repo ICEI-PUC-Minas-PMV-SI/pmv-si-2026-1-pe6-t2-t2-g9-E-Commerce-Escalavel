@@ -266,7 +266,7 @@ Configuração:<br>
 50 usuários simultâneos<br>
 Ramp-up: 10 segundos
 
-Resultado esperado:
+Resultado esperado:<br>
 Sistema deve responder sem erros<br>
 Tempo de resposta aceitável
 
@@ -283,7 +283,7 @@ Configuração:<br>
 50 usuários simultâneos<br>
 Ramp-up: 10 segundos
 
-Resultado esperado:
+Resultado esperado:<br>
 Sistema deve responder sem erros<br>
 Tempo de resposta aceitável
 
@@ -299,7 +299,7 @@ Método: GET
 Configuração:<br>
 50 usuários simultâneos
 
-Resultado esperado:
+Resultado esperado:<br>
 Sistema deve responder sem erros<br>
 Tempo de resposta aceitável
 
