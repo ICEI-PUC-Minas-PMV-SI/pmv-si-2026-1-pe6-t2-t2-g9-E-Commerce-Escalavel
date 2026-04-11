@@ -257,52 +257,53 @@ Gerar Relatório de Vendas
 
 ### 5. Testes de Carga
 
-Login de usuários
+#### Login de usuários
 
-Endpoint: /api/Usuarios/authenticate
+Endpoint: /api/Usuarios/authenticate<br>
 Método: POST
 
-Configuração:
-
-50 usuários simultâneos
+Configuração:<br>
+50 usuários simultâneos<br>
 Ramp-up: 10 segundos
 
 Resultado esperado:
-
-Sistema deve responder sem erros
+Sistema deve responder sem erros<br>
 Tempo de resposta aceitável
 
 Resultado obtido:
-
 <img width="1429" height="911" alt="Captura de tela 2026-04-10 213206" src="https://github.com/user-attachments/assets/649d106c-6f26-4b70-91ae-6362ecf150a5" />
 <img width="1424" height="876" alt="Captura de tela 2026-04-10 212937" src="https://github.com/user-attachments/assets/245c8e8d-fbd6-45b4-9489-e59c04a453be" />
 
-Finalizar compra
+#### Finalizar compra
 
-Endpoint: /api/???
+Endpoint: /api/???<br>
 Método: POST
 
-Configuração:
-
-50 usuários simultâneos
+Configuração:<br>
+50 usuários simultâneos<br>
 Ramp-up: 10 segundos
 
+Resultado esperado:
+Sistema deve responder sem erros<br>
+Tempo de resposta aceitável
+
 Resultado obtido:
-
 Imagem
 Imagem
 
-Relatório de vendas
+#### Relatório de vendas
 
-Endpoint: /api/admin/reports/sales
+Endpoint: /api/admin/reports/sales<br>
 Método: GET
 
-Configuração:
-
+Configuração:<br>
 50 usuários simultâneos
 
-Resultado obtido:
+Resultado esperado:
+Sistema deve responder sem erros<br>
+Tempo de resposta aceitável
 
+Resultado obtido:
 <img width="1433" height="909" alt="Captura de tela 2026-04-10 214057" src="https://github.com/user-attachments/assets/fd1ad4ac-f131-42ef-9989-32bdf04dc7da" />
 <img width="1426" height="867" alt="Captura de tela 2026-04-10 184206" src="https://github.com/user-attachments/assets/45a47a96-9064-48fc-930d-d2c628e0933f" />
 
