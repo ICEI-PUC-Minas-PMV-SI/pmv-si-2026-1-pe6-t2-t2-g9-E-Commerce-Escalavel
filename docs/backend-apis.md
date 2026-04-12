@@ -325,6 +325,15 @@ Gerar Relatório de Vendas
 
 ### 3. Testes Unitários
 
+Ferramenta: xUnit
+
+| Teste | Descrição | Resultado |
+| :---: | :---: | :---: |
+| Email_Deve_Conter_Arroba | Valida formato básico de email | Aprovado |
+| Calcular_Total_Compra | Verifica cálculo de total | Aprovado |
+		
+<img width="1061" height="395" alt="Captura de tela 2026-04-12 165219" src="https://github.com/user-attachments/assets/c2b673d6-e5d4-4238-82a6-bbb967212eb2" />
+
 ### 4. Testes de Integração
 
 ### 5. Testes de Carga
