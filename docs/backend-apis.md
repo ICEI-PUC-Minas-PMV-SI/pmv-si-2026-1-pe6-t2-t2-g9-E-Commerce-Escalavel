@@ -267,6 +267,20 @@ Consulta Dados de um Produto
 
 <img width="1091" height="890" alt="Captura de tela 2026-04-11 233537" src="https://github.com/user-attachments/assets/05b9a260-eb3f-44e1-8183-686dd4ee4fb4" />
 
+Atualização de Produto
+| Caso | Entrada | Resultado esperado |
+| :---: | :---: | :---: |
+| Estoque alterado | Quantidade de produtos no estoque alterada | Quantidade de produtos atualizada |
+
+<img width="1096" height="630" alt="Captura de tela 2026-04-11 233745" src="https://github.com/user-attachments/assets/56b3ff18-f8d0-459d-8f02-22cc6e125d1a" />
+
+Desativação de Produto
+| Caso | Resultado esperado |
+| :---: | :---: |
+| Desativar Produto | Produto desativado |
+
+<img width="1092" height="638" alt="Captura de tela 2026-04-11 233813" src="https://github.com/user-attachments/assets/4343d0db-b019-4c0b-b3da-c1147fd24944" />
+
 Gerar Relatório de Vendas
 | Caso | Resultado esperado |
 | :---: | :---: |
