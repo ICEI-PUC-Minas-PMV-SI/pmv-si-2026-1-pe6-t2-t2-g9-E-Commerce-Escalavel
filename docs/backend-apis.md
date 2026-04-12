@@ -253,6 +253,20 @@ Adição de Produto
 <img width="1080" height="877" alt="Captura de tela 2026-04-11 232737" src="https://github.com/user-attachments/assets/ff9d9007-f238-4ee5-bb03-559f8134c2e7" />
 <img width="1085" height="649" alt="Captura de tela 2026-04-11 233354" src="https://github.com/user-attachments/assets/7c7276a1-c889-4ae8-be00-65efd844c470" />
 
+Consulta Produtos Adicionados
+| Caso | Resultado esperado |
+| :---: | :---: |
+| Consulta Produtos | Todos os produtos exibidos |
+
+<img width="1083" height="887" alt="Captura de tela 2026-04-11 233517" src="https://github.com/user-attachments/assets/57a58a55-aa5f-448c-a41b-c8ae47474cc5" />
+
+Consulta Dados de um Produto
+| Caso | Resultado esperado |
+| :---: | :---: |
+| Consulta informações de um determinado produto | Dados do produto exibidos |
+
+<img width="1091" height="890" alt="Captura de tela 2026-04-11 233537" src="https://github.com/user-attachments/assets/05b9a260-eb3f-44e1-8183-686dd4ee4fb4" />
+
 Gerar Relatório de Vendas
 | Caso | Resultado esperado |
 | :---: | :---: |
