@@ -270,7 +270,7 @@ Consulta Dados de um Produto
 Atualização de Produto
 | Caso | Entrada | Resultado esperado |
 | :---: | :---: | :---: |
-| Estoque alterado | Quantidade de produtos no estoque alterada |Produto atualizado |
+| Estoque alterado | Quantidade de produtos no estoque alterada | Produto atualizado |
 
 <img width="1096" height="630" alt="Captura de tela 2026-04-11 233745" src="https://github.com/user-attachments/assets/56b3ff18-f8d0-459d-8f02-22cc6e125d1a" />
 
@@ -280,6 +280,41 @@ Desativação de Produto
 | Desativar Produto | Produto desativado |
 
 <img width="1092" height="638" alt="Captura de tela 2026-04-11 233813" src="https://github.com/user-attachments/assets/4343d0db-b019-4c0b-b3da-c1147fd24944" />
+
+Adicionar Produto no Carrinho
+| Caso | Entrada | Resultado esperado |
+| :---: | :---: | :---: |
+| Adição de Produto no Carrinho | Produto e quantidade selecionados |Produto adicionado |
+
+<img width="1082" height="881" alt="Captura de tela 2026-04-11 234226" src="https://github.com/user-attachments/assets/e86ef169-32bd-4bbc-ac1a-39d8ab81d850" />
+
+Consultar Carrinho
+| Caso | Resultado esperado |
+| :---: | :---: |
+| Consulta todos os produtos no carrinho | Todos os produtos no carrinho exibidos |
+
+<img width="1089" height="872" alt="Captura de tela 2026-04-11 234311" src="https://github.com/user-attachments/assets/e7b2b7d4-999e-4d5b-aeef-82269d07cd95" />
+
+Alterar quantidade de produtos no carrinho
+| Caso | Entrada | Resultado esperado |
+| :---: | :---: | :---: |
+| Alterar carrinho | Quantidade de produtos no carrinho alterada | Carrinho atualizado |
+
+<img width="1092" height="621" alt="Captura de tela 2026-04-11 234457" src="https://github.com/user-attachments/assets/a0239992-0ac5-472e-8b37-9cd86e5bfea9" />
+
+Remover produtos do carrinho
+| Caso | Entrada | Resultado esperado |
+| :---: | :---: | :---: |
+| Remover produtos do carrinho | Produto para ser removido selecionado | Produto Removido |
+
+<img width="1085" height="612" alt="Captura de tela 2026-04-11 234738" src="https://github.com/user-attachments/assets/ad096b59-e926-47ec-a86e-6d8c389e4c21" />
+
+Realizar Compra
+| Caso | Resultado esperado |
+| :---: | :---: |
+| Confirmar Compra | Compra realizada |
+
+<img width="1082" height="692" alt="Captura de tela 2026-04-11 235546" src="https://github.com/user-attachments/assets/777cac47-9686-4626-9016-a2cb7d5285e1" />
 
 Gerar Relatório de Vendas
 | Caso | Resultado esperado |
