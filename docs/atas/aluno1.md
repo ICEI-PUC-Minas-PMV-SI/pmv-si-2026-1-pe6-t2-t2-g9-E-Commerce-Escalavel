@@ -8,11 +8,11 @@
 | 16/02 - 22/02 | Gestão de Serviços de TI - Unidade 2 | ✅ | Organização do grupo | sim |
 | 23/02 - 01/03 | Arquitetura de Software Distribuído - Unidade 1 e 2 | ✅ | Requisitos funcionais e não funcionais | sim |
 | 02/03 - 08/03 | Arquitetura de Software Distribuído - Unidade 3 | ✅ | Tenologias utilizadas | sim |
-| 09/03 - 15/03 | APIs e Web Services - Unidade 1 | ⬜ |  |  |
-| 16/03 - 22/03 | APIs e Web Services - Unidade 2 | ⬜ |  |  |
-| 23/03 - 29/03 | APIs e Web Services - Unidade 2 | ⬜ |  |  |
-| 30/03 - 05/04 | Recuperação de Informação na Web e Redes Sociais - Unidade 1 | ⬜ |  |  |
-| 06/04 - 12/04 | Recuperação de Informação na Web e Redes Sociais - Unidade 2 | ⬜ |  |  |
+| 09/03 - 15/03 | APIs e Web Services - Unidade 1 | ✅ | Correção e Ajustes da Etapa 1 | sim |
+| 16/03 - 22/03 | APIs e Web Services - Unidade 2 | ✅ | Desenvolvimento do Model e Controller do Usuário | sim |
+| 23/03 - 29/03 | APIs e Web Services - Unidade 2 | ✅ | Desenvolvimento do Model e Controller do Produto | sim |
+| 30/03 - 05/04 | Recuperação de Informação na Web e Redes Sociais - Unidade 1 | ✅ | Desenvolvimento do Model e Controller do Carrinho e Compra | sim |
+| 06/04 - 12/04 | Recuperação de Informação na Web e Redes Sociais - Unidade 2 | ✅ | Ajustes finais da documentação da Etapa | sim |
 | 13/04 - 19/04 | Computação Ubíqua e Pervasiva e IoT - Unidade 1 | ⬜ |  |  |
 | 20/04 - 26/04 | Computação Ubíqua e Pervasiva e IoT - Unidade 2 | ⬜ |  |  |
 | 27/04 - 03/05 | Desenvolvimento de Aplicações Móveis - Unidade 1 | ⬜ |  |  |
