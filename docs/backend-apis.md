@@ -218,8 +218,8 @@ Cadastro de usuário
 | Cadastro válido | Dados corretos | Usuário criado |
 | Email duplicado | Mesmo email | Erro |
 
-<img width="1087" height="833" alt="Captura de tela 2026-04-10 161837" src="https://github.com/user-attachments/assets/1a31d096-4bb1-43a1-b158-3246bd3d6156" />
-<img width="1093" height="625" alt="Captura de tela 2026-04-10 161905" src="https://github.com/user-attachments/assets/31342e4e-8020-4c8b-8e41-888a54632b00" />
+<img width="1090" height="850" alt="Captura de tela 2026-04-11 224443" src="https://github.com/user-attachments/assets/024a5d06-4742-4a0a-9c34-f6714bf908e0" />
+<img width="1090" height="624" alt="Captura de tela 2026-04-11 224633" src="https://github.com/user-attachments/assets/109bd6e5-ef8f-4a35-abf8-dc253b3a99c6" />
 
 Login
 | Caso | Entrada | Resultado esperado |
@@ -227,22 +227,31 @@ Login
 | Login válido | Dados corretos | Sucesso |
 | Senha errada | Senha incorreta | Erro |
 
-<img width="1090" height="707" alt="Captura de tela 2026-04-10 162210" src="https://github.com/user-attachments/assets/93b65a60-4c0e-495e-adc6-ce258c92220e" />
-<img width="1089" height="620" alt="Captura de tela 2026-04-10 162247" src="https://github.com/user-attachments/assets/6a1f7e53-ec38-4d84-b5f1-40dda0991ade" />
+<img width="1089" height="723" alt="Captura de tela 2026-04-11 224740" src="https://github.com/user-attachments/assets/c23a3089-6e41-4262-9be8-3483c05f10e7" />
+<img width="1086" height="629" alt="Captura de tela 2026-04-11 224807" src="https://github.com/user-attachments/assets/73a58fa7-e465-4e30-9845-bc1ed20c3d57" />
 
 Atualização
 | Caso | Resultado esperado |
 | :---: | :---: |
 | Atualizar dados | Dados atualizados |
 
-<img width="1086" height="623" alt="Captura de tela 2026-04-10 162420" src="https://github.com/user-attachments/assets/a617371e-38e6-427e-a946-b3075308566f" />
+<img width="1089" height="636" alt="Captura de tela 2026-04-11 225057" src="https://github.com/user-attachments/assets/77ae0771-47fc-4ec5-9dc6-718266e58294" />
 
 Desativação
 | Caso | Resultado esperado |
 | :---: | :---: |
 | Desativar conta | Conta desativada |
 
-<img width="1090" height="627" alt="Captura de tela 2026-04-10 162657" src="https://github.com/user-attachments/assets/eee8c132-a544-4bb0-b2db-6f9b7b701374" />
+<img width="1084" height="635" alt="Captura de tela 2026-04-11 225239" src="https://github.com/user-attachments/assets/417de5e4-3e8d-49d5-8a63-d60ca44ee1eb" />
+
+Adição de Produto
+| Caso | Entrada | Resultado esperado |
+| :---: | :---: | :---: |
+| Adição de Produto com dados válidos | Dados corretos do Produto | Produto Adicionado |
+| Produto existente | Mesmo nome | Erro |
+
+<img width="1080" height="877" alt="Captura de tela 2026-04-11 232737" src="https://github.com/user-attachments/assets/ff9d9007-f238-4ee5-bb03-559f8134c2e7" />
+<img width="1085" height="649" alt="Captura de tela 2026-04-11 233354" src="https://github.com/user-attachments/assets/7c7276a1-c889-4ae8-be00-65efd844c470" />
 
 Gerar Relatório de Vendas
 | Caso | Resultado esperado |
