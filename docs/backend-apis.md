@@ -35,155 +35,349 @@ A persistência dos dados será realizada por meio do banco de dados MySQL, util
 
 Esta seção descreve os principais endpoints da API REST da plataforma de e-commerce de jogos em mídia física. Os endpoints foram definidos com base nas entidades e funcionalidades do sistema, permitindo a comunicação entre o frontend e o backend. Os exemplos apresentados contemplam operações essenciais para navegação, compra, avaliação e personalização da experiência do usuário.
 
-### Endpoint 1: Listar Produtos
-- Método: GET
-- URL: /produtos
-- Parâmetros:
-  - param1: Retorna a lista de jogos disponíveis no catálogo da plataforma.
-- Resposta:
-  - Sucesso (200 OK)
-    ```
-    {
-      "message": "Produtos listados com sucesso",
-      "data": {
-        ...
-      }
-    }
-    ```
-  - Erro (4XX, 5XX)
-    ```
-    {
-      "message": "Erro ao listar produtos",
-      "error": {
-        ...
-      }
-    }
-    ```
+### Endpoint 1: Consultar Usuários
+Método: GET
 
-### Endpoint 2: Cadastrar Usuário
-- Método: POST
-- URL: /usuários
-- Parâmetros:
-  - param1: Permite o cadastro de um novo usuário na plataforma.
-- Resposta:
-  - Sucesso (200 OK)
-    ```
-    {
-      "message": "Usuário cadastrado com sucesso",
-      "data": {
-        ...
-      }
-    }
-    ```
-  - Erro (4XX, 5XX)
-    ```
-    {
-      "message": "Erro ao cadastrar usuário",
-      "error": {
-        ...
-      }
-    }
-    ```
+URL: /api/Usuarios
 
-### Endpoint 3: Criar Pedido
-- Método: POST
-- URL: /pedidos
-- Parâmetros:
-  - param1: Registra uma nova compra realizada por um usuário.
-- Resposta:
-  - Sucesso (200 OK)
-    ```
-    {
-      "message": "Pedido realizado com sucesso",
-      "data": {
-        ...
-      }
-    }
-    ```
-  - Erro (4XX, 5XX)
-    ```
-    {
-      "message": "Erro ao realizar pedido",
-      "error": {
-        ...
-      }
-    }
-    ```
+Descrição: Retorna a lista de todos os usuários cadastrados no sistema.
 
-### Endpoint 4: Avaliar Produto
-- Método: POST
-- URL: /avaliacoes
-- Parâmetros:
-  - param1: Permite que um usuário registre uma avaliação para um produto adquirido.
-- Resposta:
-  - Sucesso (200 OK)
-    ```
-    {
-      "message": "Avaliação registrada com sucesso",
-      "data": {
-        ...
-      }
-    }
-    ```
-  - Erro (4XX, 5XX)
-    ```
-    {
-      "message": "Erro ao realizar avaliação",
-      "error": {
-        ...
-      }
-    }
-    ```
+Resposta:
 
-### Endpoint 5: Adicionar Produto aos Favoritos
-- Método: POST
-- URL: /favoritos
-- Parâmetros:
-  - param1: Adiciona um produto à lista de favoritos do usuário.
-- Resposta:
-  - Sucesso (200 OK)
-    ```
-    {
-      "message": "Produto adicionado aos favoritos",
-      "data": {
-        ...
-      }
-    }
-    ```
-  - Erro (4XX, 5XX)
-    ```
-    {
-      "message": "Erro ao favoritar produto",
-      "error": {
-        ...
-      }
-    }
-    ```
+Sucesso (200 OK)
+```
+{
+  "message": "Usuários listados com sucesso",
+}
+```
+Erro (4XX, 5XX)
+```
+{ "message": "Erro ao listar usuários", }
+```
 
-### Endpoint 5: Listar Favoritos do Usuário
-- Método: POST
-- URL: /usuários/favoritos
-- Parâmetros:
-  - param1: Retorna a lista de produtos favoritados por um usuário.
-- Resposta:
-  - Sucesso (200 OK)
-    ```
-    {
-      "message": "Favoritos listados com sucesso",
-      "data": {
-        ...
-      }
-    }
-    ```
-  - Erro (4XX, 5XX)
-    ```
-    {
-      "message": "Erro ao listar favoritos",
-      "error": {
-        ...
-      }
-    }
-    ```
+### Endpoint 2: Consulta Usuário Pelo Id
+Método: GET
+
+URL: /api/Usuarios/{id}
+
+Descrição: Busca os detalhes de um usuário específico através do seu ID.
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+  "message": "Usuário encontrado",
+}
+```
+
+### Endpoint 3: Cria Usuário
+Método: POST
+
+URL: /api/Usuarios
+
+Corpo (JSON):
+
+JSON
+{
+  "nome": "string",
+  "email": "string",
+  "password": "string",
+  "perfil": int
+}
+
+Resposta:
+
+Sucesso (201 Created)
+```
+{
+  "message": "Usuário criado com sucesso",
+}
+```
+
+### Endpoint 4: Autenticação
+Método: POST
+
+URL: /api/Usuarios/authenticate
+
+Corpo (JSON):
+
+JSON
+{
+  "email": "string",
+  "password": "string"
+}
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+    "jwtToken": "{token}"
+}
+```
+
+### Endpoint 5: Alterar Usuário
+Método: PUT
+
+URL: /api/Usuarios/{id}
+
+Corpo (JSON):
+
+JSON
+{
+  "nome": "string",
+  "email": "string",
+  "password": "string",
+  "perfil": int
+}
+
+Resposta:
+
+Sucesso (204 No Content)
+
+### Endpoint 6: Desativa Usuário
+Método: DELETE
+
+URL: /api/Usuarios/{id}
+
+Descrição: Remove ou desativa um usuário do sistema pelo ID.
+
+Resposta:
+
+Sucesso (204 No Content)
+
+### Endpoint 7: Consultar Produto
+Método: GET
+
+URL: /api/Estoque
+
+Descrição: Retorna a lista de produtos disponíveis no estoque.
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+  "message": "Produtos listados com sucesso",
+}
+```
+Erro (4XX, 5XX)
+```
+{ "message": "Erro ao listar produtos", }
+```
+
+### Endpoint 8: Consultar Produto Pelo Id
+Método: GET
+
+URL: /api/Estoque/{id}
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+  "message": "Produto encontrado",
+}
+```
+
+### Endpoint 9: Cria Produto
+Método: POST
+
+URL: /api/Estoque
+
+Corpo (JSON):
+
+JSON
+{
+  "nome": "string",
+  "descricao": "string",
+  "preco": decimal,
+  "quantEstoque": decimal,
+  "imagem": "img/Imagem.png"
+}
+
+Resposta:
+
+Sucesso (201 Created)
+```
+{
+  "message": "Produto criado com sucesso",
+}
+```
+
+### Endpoint 10: Altera Produto
+Método: PUT
+
+URL: /api/Estoque/{id}
+
+Corpo (JSON):
+
+JSON
+{
+  "nome": "string",
+  "descricao": "string",
+  "preco": decimal,
+  "quantEstoque": decimal,
+  "imagem": "img/Imagem.png"
+}
+
+Resposta:
+
+Sucesso (204 No Content)
+
+### Endpoint 11: Desativa Produto
+Método: DELETE
+
+URL: /api/Estoque/{id}
+
+Resposta:
+
+Sucesso (204 No Content)
+
+### Endpoint 12: Consultar Carrinho
+Método: GET
+
+URL: /api/Carrinho
+
+Descrição: Lista os itens atualmente no carrinho do usuário autenticado.
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+  "message": "Produtos listados com sucesso",
+}
+```
+Erro (4XX, 5XX)
+```
+{ "message": "Erro ao listar produtos", }
+```
+
+### Endpoint 13: Consultar Carrinho Pelo ID
+Método: GET
+
+URL: /api/Carrinho/{id}
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+  "message": "Produto encontrado",
+}
+```
+
+### Endpoint 14: Adicionar Item ao Carrinho
+Método: POST
+
+URL: /api/Carrinho
+
+Corpo (JSON):
+
+JSON
+{
+  "idProduto": "int",
+  "quantidade": "decimal"
+}
+
+Resposta:
+
+Sucesso (201 Created)
+```
+{
+  "message": "Produto adicionado com sucesso",
+}
+```
+
+### Endpoint 15: Altera Item do Carrinho
+Método: PATCH
+
+URL: /api/Carrinho/{id}
+
+Corpo (Raw): 1 (Representando a nova quantidade).
+
+Resposta:
+
+Sucesso (204 No Content)
+
+### Endpoint 16: Remover Item do Carrinho
+Método: DELETE
+
+URL: /api/Carrinho/{id}
+
+Resposta:
+
+Sucesso (204 No Content)
+
+### Endpoint 17: Realizar Compra
+Método: POST
+
+URL: /api/Compra
+
+Descrição: Finaliza o pedido com os itens presentes no carrinho.
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+  "message": "Compra realizada com sucesso",
+}
+```
+
+### Endpoint 18: Consultar Compras
+Método: GET
+
+URL: /api/Compra
+
+Descrição: Retorna a lista de todas as compras do sistema.
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+  "message": "Compras listadas com sucesso",
+}
+```
+Erro (4XX, 5XX)
+```
+{ "message": "Erro ao listar Compras", }
+```
+
+### Endpoint 19: Consultar Compra Pelo Id
+Método: GET
+
+URL: /api/Compra/{id}
+
+Descrição: Lista o histórico de compras do usuário.
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+  "message": "Compras listadas com sucesso",
+}
+```
+
+### Endpoint 20: Relatório Item Mais Vendido
+Método: GET
+
+URL: /api/admin/reports/sales
+
+Descrição: Gera um relatório estatístico dos produtos com maior volume de vendas.
+
+Resposta:
+
+Sucesso (200 OK)
+```
+{
+  "message": "Relatorio exibido com sucesso",
+}
+```
         
 ## Considerações de Segurança
 
