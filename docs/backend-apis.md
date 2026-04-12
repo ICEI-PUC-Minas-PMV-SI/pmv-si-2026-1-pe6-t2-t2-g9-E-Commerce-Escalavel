@@ -270,7 +270,7 @@ Consulta Dados de um Produto
 Atualização de Produto
 | Caso | Entrada | Resultado esperado |
 | :---: | :---: | :---: |
-| Estoque alterado | Quantidade de produtos no estoque alterada | Quantidade de produtos atualizada |
+| Estoque alterado | Quantidade de produtos no estoque alterada |Produto atualizado |
 
 <img width="1096" height="630" alt="Captura de tela 2026-04-11 233745" src="https://github.com/user-attachments/assets/56b3ff18-f8d0-459d-8f02-22cc6e125d1a" />
 
