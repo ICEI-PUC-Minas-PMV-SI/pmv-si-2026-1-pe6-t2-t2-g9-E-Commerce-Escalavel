@@ -348,20 +348,20 @@ Resultado obtido:
 
 #### Finalizar compra
 
-Endpoint: /api/???<br>
+Endpoint: /api/Compra<br>
 Método: POST
 
 Configuração:<br>
 50 usuários simultâneos<br>
-Ramp-up: 10 segundos
+Ramp-up: 20 segundos
 
 Resultado esperado:<br>
 Sistema deve responder sem erros<br>
 Tempo de resposta aceitável
 
 Resultado obtido:
-Imagem
-Imagem
+<img width="1431" height="913" alt="Captura de tela 2026-04-12 162902" src="https://github.com/user-attachments/assets/08a75e76-1f01-4235-888d-1321b10b7a5e" />
+<img width="1437" height="328" alt="Captura de tela 2026-04-12 162920" src="https://github.com/user-attachments/assets/1b14950c-f1e1-4994-91ac-c6610627a19a" />
 
 #### Relatório de vendas
 
