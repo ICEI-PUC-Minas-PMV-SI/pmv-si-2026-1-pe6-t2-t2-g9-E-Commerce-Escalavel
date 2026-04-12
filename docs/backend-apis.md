@@ -258,14 +258,14 @@ Consulta Produtos Adicionados
 | :---: | :---: |
 | Consulta Produtos | Todos os produtos exibidos |
 
-<img width="1083" height="887" alt="Captura de tela 2026-04-11 233517" src="https://github.com/user-attachments/assets/57a58a55-aa5f-448c-a41b-c8ae47474cc5" />
+<img width="1091" height="890" alt="Captura de tela 2026-04-11 233537" src="https://github.com/user-attachments/assets/05b9a260-eb3f-44e1-8183-686dd4ee4fb4" />
 
 Consulta Dados de um Produto
 | Caso | Resultado esperado |
 | :---: | :---: |
 | Consulta informações de um determinado produto | Dados do produto exibidos |
 
-<img width="1091" height="890" alt="Captura de tela 2026-04-11 233537" src="https://github.com/user-attachments/assets/05b9a260-eb3f-44e1-8183-686dd4ee4fb4" />
+<img width="1083" height="887" alt="Captura de tela 2026-04-11 233517" src="https://github.com/user-attachments/assets/57a58a55-aa5f-448c-a41b-c8ae47474cc5" />
 
 Atualização de Produto
 | Caso | Entrada | Resultado esperado |
