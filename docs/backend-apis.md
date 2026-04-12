@@ -331,8 +331,9 @@ Ferramenta: xUnit
 | :---: | :---: | :---: |
 | Email_Deve_Conter_Arroba | Valida formato básico de email | Aprovado |
 | Calcular_Total_Compra | Verifica cálculo de total | Aprovado |
+| Nome_Deve_Ser_Valido | Verifica se o nome é valido | Aprovado |
 		
-<img width="1061" height="395" alt="Captura de tela 2026-04-12 165219" src="https://github.com/user-attachments/assets/c2b673d6-e5d4-4238-82a6-bbb967212eb2" />
+<img width="1044" height="377" alt="Captura de tela 2026-04-12 174224" src="https://github.com/user-attachments/assets/5e1a3b5d-2efe-4be5-bcd8-450fad5c4c91" />
 
 ### 4. Testes de Integração
 
