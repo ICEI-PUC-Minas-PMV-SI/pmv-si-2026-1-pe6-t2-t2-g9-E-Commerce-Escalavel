@@ -21,7 +21,7 @@ A entidade Pedido registra as compras realizadas, associando cada pedido a um ú
 ### Representações Visuais
 O Diagrama Entidade-Relacionamento (DER) apresenta graficamente as entidades, seus atributos e relacionamentos, facilitando a compreensão da estrutura de dados da aplicação. Essa representação visual serve como base para a implementação do banco de dados relacional e auxilia na manutenção e evolução do sistema.
 
-<img width="1536" height="1024" alt="diagrama" src="https://github.com/user-attachments/assets/984217dd-ae68-48e4-bc94-997376a1b35c" />
+<img width="1858" height="1024" alt="Representacoes Visuais" src="https://github.com/user-attachments/assets/30efd303-f071-4192-a2fa-3c1bc6b80601" />
 
 ## Tecnologias Utilizadas
 
