@@ -210,6 +210,12 @@ Após a configuração do ambiente, o processo de deploy consiste na publicaçã
 
 ### 1. Estratégia de Teste
 
+A estratégia de testes do projeto foi estruturada para garantir a qualidade, confiabilidade e desempenho da aplicação em diferentes níveis. Foram aplicados testes unitários com o framework xUnit, com o objetivo de validar individualmente as regras de negócio e o comportamento das funções principais do sistema, assegurando que cada componente funcionasse de forma isolada e correta.
+
+Além disso, foram realizados testes funcionais utilizando o Postman, permitindo a verificação dos endpoints da API em diferentes cenários de uso. Esses testes foram fundamentais para garantir que as requisições e respostas estivessem de acordo com os requisitos definidos, cobrindo casos de sucesso e de erro.
+
+Por fim, para avaliar o desempenho da aplicação sob diferentes níveis de acesso simultâneo, foram realizados testes de carga com o Apache JMeter, simulando múltiplos usuários e analisando o comportamento do sistema sob estresse. Essa etapa permitiu identificar possíveis gargalos e garantir a estabilidade da aplicação em situações de alta demanda.
+
 ### 2. Casos de Teste
 
 Cadastro de usuário
@@ -335,9 +341,7 @@ Ferramenta: xUnit
 		
 <img width="1044" height="377" alt="Captura de tela 2026-04-12 174224" src="https://github.com/user-attachments/assets/5e1a3b5d-2efe-4be5-bcd8-450fad5c4c91" />
 
-### 4. Testes de Integração
-
-### 5. Testes de Carga
+### 4. Testes de Carga
 
 #### Login de usuários
 
@@ -388,14 +392,6 @@ Tempo de resposta aceitável
 Resultado obtido:
 <img width="1433" height="909" alt="Captura de tela 2026-04-10 214057" src="https://github.com/user-attachments/assets/fd1ad4ac-f131-42ef-9989-32bdf04dc7da" />
 <img width="1426" height="867" alt="Captura de tela 2026-04-10 184206" src="https://github.com/user-attachments/assets/45a47a96-9064-48fc-930d-d2c628e0933f" />
-
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
-
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
 
 # Referências
 
