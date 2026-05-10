@@ -83,6 +83,9 @@ Os elementos gráficos do sistema, como cards de produtos, botões, containers e
 #### Index:
 <img width="1880" height="906" alt="image" src="https://github.com/user-attachments/assets/3a1773f8-d807-461d-ac04-f1b0e3fa897b" />
 
+#### Menu Aberto:
+<img width="1906" height="813" alt="image" src="https://github.com/user-attachments/assets/4077d02f-bffe-4bb9-801c-a6c1f63c7240" />
+
 #### Visualizar Produto:
 <img width="1877" height="897" alt="image" src="https://github.com/user-attachments/assets/c4c333e2-ea7f-4d11-9816-9dc0c4d13977" />
 
