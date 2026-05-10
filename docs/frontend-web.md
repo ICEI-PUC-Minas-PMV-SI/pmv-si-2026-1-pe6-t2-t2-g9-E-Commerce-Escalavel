@@ -55,7 +55,48 @@ Dessa forma, é possível visualizar e validar a organização de todas as telas
 
 ### Design Visual
 
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+O design visual da interface da plataforma GameStore foi desenvolvido com foco em transmitir modernidade, organização e confiabilidade, características essenciais para um sistema de e-commerce digital. Toda a identidade visual foi aplicada de forma consistente em todas as telas do sistema, garantindo uma experiência uniforme ao usuário
+
+## Paleta de Cores
+A paleta de cores adotada no projeto é composta predominantemente por tons de azul e verde, escolhidos para transmitir sensações de segurança, tecnologia e confiabilidade. O azul claro é utilizado em áreas de destaque, como cabeçalhos, containers informativos e telas principais, enquanto o azul escuro é aplicado em elementos de maior importância visual, como botões de ação e rodapé da aplicação. Tons de verde-água são utilizados para destacar listas de produtos, cards e itens do carrinho de compras, auxiliando na separação visual das informações. A cor branca é empregada nas áreas centrais de conteúdo, garantindo boa legibilidade e contraste.
+
+<img width="113" height="120" alt="image" src="https://github.com/user-attachments/assets/c108ecd1-b4ad-4718-acbf-8bbf89cfb82c" />
+
+#### Cabeçalho:
+<img width="658" height="60" alt="image" src="https://github.com/user-attachments/assets/d0b6f682-1c66-4287-93df-8b52f2631349" />
+
+#### Rodapé:
+<img width="660" height="96" alt="image" src="https://github.com/user-attachments/assets/ae57a8cb-e164-4baa-9188-142c7539720f" />
+
+#### Elemento Central:
+<img width="432" height="356" alt="image" src="https://github.com/user-attachments/assets/8c14efe9-c803-4b89-8636-d5039407568d" />
+
+## Tipografia
+A tipografia utilizada no projeto é simples e prioriza a legibilidade e clareza das informações apresentadas. Os títulos possuem maior destaque visual, enquanto textos descritivos e informações secundárias mantêm um tamanho equilibrado, facilitando a leitura. A padronização do uso da tipografia foi mantida em todas as telas, contribuindo para a consistência visual e profissionalismo da interface.
+
+## ícones
+Os ícones foram utilizados de forma padronizada para representar ações e funcionalidades da aplicação, como busca, menu, perfil do usuário, carrinho de compras e contatos no rodapé. Esses elementos gráficos auxiliam na comunicação visual, tornando a navegação mais intuitiva e reduzindo a dependência excessiva de textos. Todos os ícones seguem o mesmo padrão visual, contribuindo para a identidade da interface.
+
+## Elementos Gráficos e Componentes Visuais
+Os elementos gráficos do sistema, como cards de produtos, botões, containers e formulários, foram desenvolvidos com bordas arredondadas e espaçamentos bem definidos, proporcionando uma interface leve e organizada. Os botões de ação possuem cores contrastantes para facilitar sua identificação, especialmente em ações importantes como “Adicionar ao carrinho” e “Finalizar compra”. Containers informativos e áreas administrativas mantêm alinhamento e distribuição coerente dos elementos, facilitando o uso tanto por usuários comuns quanto por administradores do sistema.
+
+#### Index:
+<img width="1880" height="906" alt="image" src="https://github.com/user-attachments/assets/3a1773f8-d807-461d-ac04-f1b0e3fa897b" />
+
+#### Visualizar Produto:
+<img width="1877" height="897" alt="image" src="https://github.com/user-attachments/assets/c4c333e2-ea7f-4d11-9816-9dc0c4d13977" />
+
+#### Carrinho:
+<img width="1883" height="902" alt="image" src="https://github.com/user-attachments/assets/226c8a8b-f239-4f8b-8952-c88cbe1468f7" />
+
+#### Compra
+<img width="1900" height="820" alt="image" src="https://github.com/user-attachments/assets/f5cf348a-862c-4eee-a661-a28728f45fb8" />
+
+#### Login:
+<img width="1916" height="899" alt="image" src="https://github.com/user-attachments/assets/108eb2c5-cea2-4020-956a-19f3a093514a" />
+
+#### Cadastro:
+<img width="1906" height="903" alt="image" src="https://github.com/user-attachments/assets/2c7fcc25-f5e5-400d-a179-d91843596d72" />
 
 ## Fluxo de Dados
 
