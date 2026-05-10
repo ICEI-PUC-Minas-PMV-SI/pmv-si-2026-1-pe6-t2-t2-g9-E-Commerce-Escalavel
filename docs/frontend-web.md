@@ -333,77 +333,50 @@ Adição de Produto
 | Adição de Produto com dados válidos | Dados corretos do Produto | Produto Adicionado |
 | Produto existente | Mesmo nome | Erro |
 
-
-
-Consulta Produtos Adicionados
-| Caso | Resultado esperado |
-| :---: | :---: |
-| Consulta Produtos | Todos os produtos exibidos |
-
-
-
-Consulta Dados de um Produto
-| Caso | Resultado esperado |
-| :---: | :---: |
-| Consulta informações de um determinado produto | Dados do produto exibidos |
-
-
+<img width="1901" height="912" alt="Captura de tela 2026-05-10 165241" src="https://github.com/user-attachments/assets/91f17115-4b96-464f-b7b5-a11adf7479a7" />
+<img width="1901" height="907" alt="Captura de tela 2026-05-10 170307" src="https://github.com/user-attachments/assets/43b7e37d-46ed-427e-b767-b74e728a4189" />
 
 Atualização de Produto
 | Caso | Entrada | Resultado esperado |
 | :---: | :---: | :---: |
 | Estoque alterado | Quantidade de produtos no estoque alterada | Produto atualizado |
 
-
+<img width="1897" height="907" alt="Captura de tela 2026-05-10 165313" src="https://github.com/user-attachments/assets/1dae5d72-c279-4ed9-8911-ea69fc6cd324" />
 
 Desativação de Produto
 | Caso | Resultado esperado |
 | :---: | :---: |
 | Desativar Produto | Produto desativado |
 
-
+<img width="1897" height="903" alt="Captura de tela 2026-05-10 171236" src="https://github.com/user-attachments/assets/250a8a08-2de1-4cac-810b-1aa00b117fcd" />
 
 Adicionar Produto no Carrinho
 | Caso | Entrada | Resultado esperado |
 | :---: | :---: | :---: |
 | Adição de Produto no Carrinho | Produto e quantidade selecionados |Produto adicionado |
 
-
-
-Consultar Carrinho
-| Caso | Resultado esperado |
-| :---: | :---: |
-| Consulta todos os produtos no carrinho | Todos os produtos no carrinho exibidos |
-
-
+<img width="1901" height="912" alt="Captura de tela 2026-05-10 173229" src="https://github.com/user-attachments/assets/a03c02ea-7510-440f-8b37-2137c146f734" />
 
 Alterar quantidade de produtos no carrinho
 | Caso | Entrada | Resultado esperado |
 | :---: | :---: | :---: |
 | Alterar carrinho | Quantidade de produtos no carrinho alterada | Carrinho atualizado |
 
-
+<img width="1918" height="903" alt="Captura de tela 2026-05-10 171843" src="https://github.com/user-attachments/assets/1d54d781-c4bf-4511-af0e-c85b68a43dad" />
 
 Remover produtos do carrinho
 | Caso | Entrada | Resultado esperado |
 | :---: | :---: | :---: |
 | Remover produtos do carrinho | Produto para ser removido selecionado | Produto Removido |
 
-
+<img width="1918" height="910" alt="Captura de tela 2026-05-10 171857" src="https://github.com/user-attachments/assets/e7854276-1cca-40cb-a4b5-b7990fe6f3a1" />
 
 Realizar Compra
 | Caso | Resultado esperado |
 | :---: | :---: |
 | Confirmar Compra | Compra realizada |
 
-
-
-Gerar Relatório de Vendas
-| Caso | Resultado esperado |
-| :---: | :---: |
-| Solicitação de Relatório | Relatório exibido com total de vendas e produto mais vendido |
-
-
+<img width="1918" height="761" alt="Captura de tela 2026-05-10 171937" src="https://github.com/user-attachments/assets/f14ddf9a-0541-4652-b99d-3686a27f1e9d" />
 
 ### 3. Testes Unitários
 
