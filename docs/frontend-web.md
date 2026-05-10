@@ -117,14 +117,8 @@ O usuário envia seus dados de login para a API, que valida as credenciais e ret
 2. Consulta de Produtos
 A API consulta a tabela de produtos no banco de dados e retorna as informações para exibição na interface.
 
-3. Lista de Favoritos
-Quando o usuário adiciona um produto aos favoritos, a API cria um relacionamento entre usuário e produto, armazenando essa informação na tabela de favoritos.
-
-4. Processo de Compra
+3. Processo de Compra
 Ao finalizar uma compra, a API cria um pedido na tabela Orders e registra os produtos adquiridos na tabela OrderItems.
-
-5. Avaliação de Produtos
-Após uma compra, o usuário pode registrar uma avaliação vinculada ao produto e ao seu usuário.
 
 ## Tecnologias Utilizadas
 As principais tecnologias utilizadas no desenvolvimento do projeto são:
@@ -148,8 +142,6 @@ As principais tecnologias utilizadas no desenvolvimento do projeto são:
 
     JavaScript: Interatividade e consumo da API.
 
-    Bootstrap 5: Framework para responsividade e padronização visual.
-
 - Ferramentas de Desenvolvimento
 
     Visual Studio 2022: Ambiente de desenvolvimento principal.
@@ -158,7 +150,7 @@ As principais tecnologias utilizadas no desenvolvimento do projeto são:
 
     GitHub: Armazenamento e colaboração no código-fonte.
 
-    Insomnia: Testes dos endpoints da API.
+    Postman: Testes dos endpoints da API.
 
 - Hospedagem
 
@@ -184,9 +176,7 @@ As principais tecnologias utilizadas no desenvolvimento do projeto são:
 
   Usuário
 
-      Favoritos
       Compras
-      Avaliações
 
   Esse controle é feito com base no perfil do usuário.
 
@@ -288,8 +278,6 @@ A implantação da aplicação será realizada em ambiente de nuvem utilizando A
       testes de login
       testes de cadastro
       testes de compra
-      testes de favoritos
-      testes de avaliações
       testes de carga
       testes de segurança
 
