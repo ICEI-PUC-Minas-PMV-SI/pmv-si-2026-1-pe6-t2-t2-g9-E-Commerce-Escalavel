@@ -1,10 +1,27 @@
 # Front-end Web
 
-[Inclua uma breve descrição do projeto e seus objetivos.]
+Este projeto consiste no desenvolvimento do Front-end Web de uma plataforma de e-commerce voltada para a venda de jogos eletrônicos em mídia física, denominada GameStore. A aplicação tem como finalidade oferecer uma experiência de navegação intuitiva, organizada e visualmente atrativa para os usuários finais, permitindo que realizem todo o processo de compra de forma simples e eficiente.
+
+O principal objetivo do projeto de Front-end Web é desenvolver uma interface funcional, intuitiva e visualmente consistente para uma plataforma de e-commerce de jogos eletrônicos, proporcionando uma experiência agradável e eficiente ao usuário. O Front-end foi desenvolvido com foco em usabilidade, organização visual e responsividade, garantindo que a interface seja acessível. A aplicação contempla funcionalidades essenciais de uma loja virtual, como visualização de produtos, detalhes dos jogos, gerenciamento de carrinho de compras, cálculo de valores e finalização da compra.
+
+Além de atender aos usuários finais, o projeto também considera a padronização visual e estrutural da aplicação, facilitando futuras manutenções e evoluções do sistema. Dessa forma, o Front-end atua como a principal camada de interação entre o usuário e o sistema, garantindo uma experiência agradável e funcional.
 
 ## Projeto da Interface Web
 
-[Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
+O projeto da interface Web da aplicação foi desenvolvido a partir de um planejamento prévio realizado no Figma, permitindo a definição do layout, da identidade visual e do fluxo de navegação antes da implementação do sistema. A proposta da interface é oferecer uma experiência clara, intuitiva e organizada, facilitando a interação do usuário com as funcionalidades da plataforma de e-commerce de jogos eletrônicos.
+
+O layout das páginas segue uma estrutura padronizada, composta por cabeçalho, área central de conteúdo e rodapé. O cabeçalho concentra elementos essenciais de navegação, como a logo da aplicação, o campo de busca e o menu de acesso às demais seções, garantindo fácil localização das funcionalidades. A área central é destinada à exibição do conteúdo principal de cada tela, como a listagem de jogos, a visualização detalhada de produtos, o carrinho de compras, a tela de pagamento e as áreas administrativas. O rodapé apresenta informações institucionais, contatos e links complementares, mantendo consistência visual em todas as páginas.
+
+Durante o desenvolvimento do projeto da interface, também foram considerados aspectos como organização da informação, hierarquia visual dos elementos e clareza nas ações disponíveis ao usuário. Esses fatores contribuíram para a criação de uma interface funcional e coerente, capaz de atender tanto usuários finais quanto administradores da plataforma.
+
+#### Index:
+<img width="688" height="598" alt="image" src="https://github.com/user-attachments/assets/3fddc56d-7d3c-43dd-bdb9-3f5f7d75f7cd" />
+
+#### Visualizar Produto:
+<img width="681" height="596" alt="image" src="https://github.com/user-attachments/assets/c4438be2-cdcb-4812-ac59-88cc1645f1c3" />
+
+#### Carrinho:
+<img width="681" height="587" alt="image" src="https://github.com/user-attachments/assets/debf2678-cbb6-4a4d-95ce-9732ce2af69d" />
 
 ### Wireframes
 
