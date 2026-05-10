@@ -14,8 +14,19 @@ O layout das páginas segue uma estrutura padronizada, composta por cabeçalho, 
 
 Durante o desenvolvimento do projeto da interface, também foram considerados aspectos como organização da informação, hierarquia visual dos elementos e clareza nas ações disponíveis ao usuário. Esses fatores contribuíram para a criação de uma interface funcional e coerente, capaz de atender tanto usuários finais quanto administradores da plataforma.
 
+### Wireframes
+
+Definição da disposição dos componentes na página, a hierarquia das informações e o fluxo de navegação entre as telas, planejamento e localização de elementos como menus, áreas de conteúdo, listas de produtos, formulários, botões de ação e seções informativas. As telas seguem um padrão estrutural consistente, no qual o cabeçalho permanece fixo contendo a logo, o campo de busca e o menu de navegação, enquanto a área central é reservada para o conteúdo específico de cada funcionalidade. O rodapé, mantém informações institucionais e de contato, contribuindo para a padronização da interface.
+
+A página inicial, index, foi definida a estrutura principal da interface, contendo o cabeçalho com a logo, campo de busca e menu, além da área central destinada à listagem de jogos em formato de cards, acompanhada de filtros laterais. A versão da index com o menu aberto permitiu validar a organização das opções de navegação e o acesso rápido às seções do sistema.
+
 #### Index:
 <img width="688" height="598" alt="image" src="https://github.com/user-attachments/assets/3fddc56d-7d3c-43dd-bdb9-3f5f7d75f7cd" />
+
+#### Menu Aberto:
+<img width="688" height="585" alt="image" src="https://github.com/user-attachments/assets/675b50b9-b1d4-4889-9c4c-1eb9ee3f2d0c" />
+
+A tela de visualização de produto teve seu wireframe estruturado para destacar a imagem do jogo, o título, a descrição e as informações de preço, organizando os elementos de forma clara para facilitar a decisão de compra. Já o wireframe do carrinho de compras definiu a separação entre a lista de produtos selecionados e a área de informações resumidas da compra, incluindo valor total e ações como finalizar pedido ou remover itens.
 
 #### Visualizar Produto:
 <img width="681" height="596" alt="image" src="https://github.com/user-attachments/assets/c4438be2-cdcb-4812-ac59-88cc1645f1c3" />
@@ -23,9 +34,24 @@ Durante o desenvolvimento do projeto da interface, também foram considerados as
 #### Carrinho:
 <img width="681" height="587" alt="image" src="https://github.com/user-attachments/assets/debf2678-cbb6-4a4d-95ce-9732ce2af69d" />
 
-### Wireframes
+Além das telas voltadas ao usuário final, também foram elaborados wireframes para as áreas administrativas, como gestão de produtos e gestão de funcionários, organizando os dados em cards ou listas, com botões de ação bem posicionados para facilitar operações de cadastro, edição e exclusão. As telas de login, cadastro e perfil também foram estruturadas de forma simples e objetiva, priorizando formulários claros e de fácil preenchimento.
 
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+#### Gestão de Produto:
+<img width="681" height="583" alt="image" src="https://github.com/user-attachments/assets/2e4d9d49-3999-4a14-be8c-41f3de0be77f" />
+
+#### Gestão de Funcionários:
+<img width="690" height="589" alt="image" src="https://github.com/user-attachments/assets/ead9269f-1c74-4147-b5f4-ae541d4afe66" />
+
+#### Login:
+<img width="684" height="586" alt="image" src="https://github.com/user-attachments/assets/3e64039c-da04-4619-bbe7-559d733c17d0" />
+
+#### Cadastro:
+<img width="689" height="590" alt="image" src="https://github.com/user-attachments/assets/e3842797-cbe7-464e-b47a-dbd284b8baf6" />
+
+#### Perfil:
+<img width="684" height="590" alt="image" src="https://github.com/user-attachments/assets/4a166b17-3350-436b-a382-54c4cebd901f" />
+
+Dessa forma, é possível visualizar e validar a organização de todas as telas desenvolvidas, garantindo uma estrutura consistente e funcional, que serviu como base sólida para a implementação final.
 
 ### Design Visual
 
