@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Funcionários</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-3" id="container-logo">
+                <img src="./img/LogoGameStore.png" alt="Logo" id="logo">
+            </div>
+            <div class="col-md-6" id="container-procura">
+                <input type="text" name="procura" id="procura">
+                <button id="lupa"><img src="./img/Icons/lupa.png" alt="" width="100%" height="100%"></button>
+            </div>
+            <div class="col-md-3" id="container-menu">
+                <button id="button-menu"><img src="./img/Icons/menu.png" alt="Menu" width="100%" height="100%"></button>
+            </div>
+        </div>
+    </header>
+
+    <nav id="contairner-lista" style="display: none;">
+        <a href="./index.html">
+            <b>
+                <h3>Home</h3>
+            </b>
+        </a>
+        <a href="./perfil.html">
+            <b>
+                <h3>Perfil</h3>
+            </b>
+        </a>
+        <a href="./carrinho.html">
+            <b>
+                <h3>Carrinho</h3>
+            </b>
+        </a>
+        <a href="./login.html">
+            <b>
+                <h3>Login e Cadastro</h3>
+            </b>
+        </a>
+        <a href="#">
+            <b>
+                <h3 id="sair">Sair</h3>
+            </b>
+        </a>
+    </nav>
+
+    <section>
+        <div class="row">
+            <div class="col-md-10"></div>
+            <div class="col-md-2">
+                <button id="adicionar-funcionario" class="adicionar-admin">Adicionar funcionario</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" class="card-admin" id="container-funcionario">
+                <!-- Exemplo do card de funcionario -->
+                <!-- <div class="card-funcionario">
+                    <div class="container-input">
+                        <h5>Nome: </h5>
+                        <input type="text" class="input-card-admin" name="nome" id="nome">
+                    </div>
+                    <div class="container-input">
+                        <h5>Email: </h5>
+                        <input type="text" class="input-card-admin" name="email" id="email">
+                    </div>
+                    <div class="container-input">
+                        <h5>Usuário ativo: </h5>
+                        <button class="usuario-ativo"><b>V</b></button>
+                    </div>
+                    <div class="container-input-botao">
+                        <button class="botao-salvar">Salvar alterações</button>
+                    </div>
+                </div>
+                <div class="card-funcionario">
+                    <div class="container-input">
+                        <h5>Nome: </h5>
+                        <input type="text" class="input-card-admin" name="nome" id="nome">
+                    </div>
+                    <div class="container-input">
+                        <h5>Email: </h5>
+                        <input type="text" class="input-card-admin" name="email" id="email">
+                    </div>
+                    <div class="container-input">
+                        <h5>Usuário ativo: </h5>
+                        <button class="usuario-inativo"><b>X</b></button>
+                    </div>
+                    <div class="container-input-botao">
+                        <button class="botao-salvar">Salvar alterações</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-md-4 sessao-footer">
+                <h3><b>Contatos:</b></h3>
+                <div id="container-contatos">
+                    <div class="linha">
+                        <img src="./img/Icons/linkedin.png" alt="">&nbsp
+                        <h5>GameStore</h5>&nbsp&nbsp
+                        <img src="./img/Icons/whatsapp.png" alt="">&nbsp
+                        <h5>(31) 9 1234 - 5678</h5>
+                    </div>
+                    <div class="linha">
+                        <img src="./img/Icons/gmail.png" alt="">&nbsp
+                        <h5>gamestore@gmail.com</h5>&nbsp&nbsp
+                        <img src="./img/Icons/instagram.png" alt="">&nbsp
+                        <h5>GameStore</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 sessao-footer">
+                <h3><b>Sessões:</b></h3>
+                <h5><a href="./index.html">Home</a></h5>
+                <h5><a href="./login.html">Login e Cadastro</a></h5>
+                <h5><a href="./gestaoProduto.html">Gestão de Produto</a></h5>
+                <h5><a href="./gestaoFuncionario.html">Funcionarios</a></h5>
+            </div>
+            <div class="col-md-4 sessao-footer">
+                <h3><b>Mais informações:</b></h3>
+                <div id="container-sessoes">
+                    <h5>CNPJ: 35.159.816/0001-47</h5>
+                    <h5>Endereço: 79320-210</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        let token = ''
+
+        if (!localStorage.getItem('token')) {
+            window.location.href = "./login.html"
+        }
+
+        token = localStorage.getItem('token');
+
+        // Comando que retorna o ID do usuário através do jwtToken
+        const idUsuario = JSON.parse(atob(token.split('.')[1])).nameid
+        const perfil = JSON.parse(atob(token.split('.')[1])).role
+
+        if (perfil != 'Administrador') {
+            window.location.href = "./index.html"
+        }
+
+        // Menu controller
+        let lista = document.getElementById('contairner-lista')
+        let menu = document.getElementById('button-menu')
+
+        menu.addEventListener('click', () => {
+            if (lista.style.cssText == 'display: flex;') {
+                lista.style = 'display: none;'
+            } else {
+                lista.style = 'display: flex;'
+            }
+        })
+
+        const formatador = new Intl.NumberFormat('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+        })
+
+        document.getElementById('sair').addEventListener('click', () => {
+            localStorage.clear()
+            window.location.href = "./login.html"
+        })
+
+        const container = document.getElementById('container-funcionario')
+
+        async function CarregarFuncionarios() {
+
+            try {
+                const resposta = await fetch("https://localhost:7137/api/Usuarios")
+
+                console.log(resposta)
+
+                if (!resposta.ok) {
+                    throw new Error(`Erro na requisição: ${resposta.status}`)
+                }
+
+                dados = await resposta.json()
+
+                dados = dados.filter(f => {
+                    return f.perfil == 0
+                })
+
+                console.log("Dados recebidos com sucesso:", dados)
+
+                let card = ""
+
+                dados.forEach(f => {
+
+                    let ativo = {}
+                    if (f.ativo) {
+                        ativo = {
+                            classe: 'usuario-ativo',
+                            texto: 'V'
+                        }
+                    } else {
+                        ativo = {
+                            classe: 'usuario-inativo',
+                            texto: 'X'
+                        }
+                    }
+
+                    card +=
+                        `
+                    <div class="card-funcionario">
+                        <div class="container-input">
+                            <h5>Nome: </h5>
+                            <input type="text" class="input-card-admin" name="nome" id="nome" value="${f.nome}">
+                        </div>
+                        <div class="container-input">
+                            <h5>Email: </h5>
+                            <input type="text" class="input-card-admin" name="email" id="email" value="${f.email}">
+                        </div>
+                        <div class="container-input">
+                            <h5>Usuário ativo: </h5>
+                            <button class="${ativo.classe} botao-ativar" value="${f.id}"><b>${ativo.texto}</b></button>
+                        </div>
+                        <div class="container-input-botao">
+                            <button class="botao-salvar" value="${f.id}">Salvar alterações</button>
+                        </div>
+                    </div>
+                    `
+                })
+
+                container.innerHTML = card
+
+            } catch (erro) {
+                console.error("Houve um problema com a consulta:", erro)
+            }
+        }
+
+        CarregarFuncionarios()
+
+        const adicionar = document.getElementById('adicionar-funcionario')
+
+        adicionar.addEventListener('click', () => {
+
+            let card = ''
+
+            card =
+                `
+                    <div class="card-funcionario">
+                        <div class="container-input">
+                            <h5>Nome: </h5>
+                            <input type="text" class="input-card-admin" name="nome" id="nome">
+                        </div>
+                        <div class="container-input">
+                            <h5>Email: </h5>
+                            <input type="text" class="input-card-admin" name="email" id="email">
+                        </div>
+                        <div class="container-input">
+                            <h5>Usuário ativo: </h5>
+                            <button class="usuario-ativo excluir"><b>V</b></button>
+                        </div>
+                        <div class="container-input-botao">
+                            <button class="botao-criar">Criar usuário</button>
+                        </div>
+                    </div>
+                    `
+
+            container.innerHTML = card + container.innerHTML
+        })
+
+        // Botão de ação de criar usuário:
+        // É criado de forma diferente dos outros pois ele não existe até clçicar no botão de adicionar, nesse caso o addEventeListner não funciona do mesmo jeito
+
+        document.addEventListener('click', async (event) => {
+            let botao = event.target.closest('.botao-criar')
+
+            if (botao) {
+                const nome = botao.closest('.card-funcionario').children[0].children[1].value
+                const email = botao.closest('.card-funcionario').children[1].children[1].value
+
+                try {
+                    const resposta = await fetch('https://localhost:7137/api/Usuarios', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${token}`,
+                        },
+                        body: JSON.stringify({
+                            "nome": nome,
+                            "email": email,
+                            "password": 'GameStory@1234', // Senha padrão para que o usuário altere depois.
+                            "perfil": 0
+                        }) // Converte objeto para texto
+                    });
+
+                    console.log(resposta)
+
+                    if (resposta.ok) {
+                        CarregarFuncionarios()
+                    } else {
+                        alert(await resposta.text())
+                    }
+                } catch (e) {
+                    alert("Falha ao cadastrar usuário: " + e)
+                }
+            }
+        })
+
+        // Botão de ação de excluir card de adicionar funcionario:
+        document.addEventListener('click', (event) => {
+            let botao = event.target.closest('.excluir')
+
+            if (botao) {
+                botao.closest('.card-funcionario').remove()
+            }
+        })
+
+        // Botão de ação de ativar e desativar:
+        document.addEventListener('click', async (event) => {
+            let botao = event.target.closest('.botao-ativar')
+
+            if (botao) {
+
+                try {
+                    const resposta = await fetch('https://localhost:7137/api/Usuarios/' + botao.value, {
+                        method: 'DELETE',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${token}`,
+                        }
+                    });
+
+                    console.log(resposta)
+
+                    if (resposta.ok) {
+                        CarregarFuncionarios()
+                    } else {
+                        alert(await resposta.text())
+                    }
+                } catch (e) {
+                    alert("Falha ao cadastrar usuário: " + e)
+                }
+            }
+        })
+
+        // Botão de ação de criar usuário:
+        document.addEventListener('click', async (event) => {
+            let botao = event.target.closest('.botao-salvar')
+
+            if (botao) {
+                const nome = botao.closest('.card-funcionario').children[0].children[1].value
+                const email = botao.closest('.card-funcionario').children[1].children[1].value
+
+                try {
+                    const resposta = await fetch('https://localhost:7137/api/Usuarios/' + botao.value, {
+                        method: 'PUT',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${token}`,
+                        },
+                        body: JSON.stringify({
+                            "nome": nome,
+                            "email": email,
+                            "password": "",
+                            "perfil": 0
+                        }) // Converte objeto para texto
+                    });
+
+                    console.log(resposta)
+
+                    if (resposta.ok) {
+                        CarregarFuncionarios()
+                    } else {
+                        alert(await resposta.text())
+                    }
+                } catch (e) {
+                    alert("Falha ao cadastrar usuário: " + e)
+                }
+            }
+        })
+
+    </script>
+</body>
+
+</html>

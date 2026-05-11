@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-3" id="container-logo">
+                <img src="./img/LogoGameStore.png" alt="Logo" id="logo">
+            </div>
+            <div class="col-md-6" id="container-procura">
+                <input type="text" name="procura" id="procura">
+                <button id="lupa"><img src="./img/Icons/lupa.png" alt="" width="100%" height="100%"></button>
+            </div>
+            <div class="col-md-3" id="container-menu">
+                <button id="button-menu"><img src="./img/Icons/menu.png" alt="Menu" width="100%" height="100%"></button>
+            </div>
+        </div>
+    </header>
+
+    <nav id="contairner-lista" style="display: none;">
+        <a href="./index.html">
+            <b>
+                <h3>Home</h3>
+            </b>
+        </a>
+        <a href="./perfil.html">
+            <b>
+                <h3>Perfil</h3>
+            </b>
+        </a>
+        <a href="./carrinho.html">
+            <b>
+                <h3>Carrinho</h3>
+            </b>
+        </a>
+        <a href="./login.html">
+            <b>
+                <h3>Login e Cadastro</h3>
+            </b>
+        </a>
+        <a href="#">
+            <b>
+                <h3 id="sair">Sair</h3>
+            </b>
+        </a>
+    </nav>
+
+    <section>
+        <div class="row">
+            <div class="col-md-3" id="container-esquerdo">
+                <div id="container-filtro">
+                    <h3><b>Filtros</b></h3>
+                    <div id="container-faixapreco" class="container-secundario">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <b>Faixa de preço</b>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" id="container-rage">
+                                <input type="number" name="preco-minimo" id="preco-minimo" class="range">
+                                <b>&nbsp até &nbsp</b>
+                                <input type="number" name="preco-maximo" id="preco-maximo" class="range">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="container-nome" class="container-secundario">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <b>Nome</b>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="filto-nome" id="filto-nome" class="campo-filtro">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="container-descricao" class="container-secundario">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <b>Descrição</b>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" name="filto-descricao" id="filto-descricao" class="campo-filtro">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="container-diponivel" class="container-secundario">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <b>Somente Disponivel</b>
+                                <input type="checkbox" name="filto-disponivel" id="filto-disponivel">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9" id="container-card">
+                <!-- Card de exemplo! -->
+                <!-- <div class="card">
+                    <a href="#" class="card-link">
+                        <img src="./img/semImagem.png" alt="" class="card-img">
+                        <p class="card-nome">GTA V</p>
+                        <p class="card-descricao">Jogo de mundo aberto onde você se torna o Rei do Crime</p>
+                        <p class="card-preco">R$250,00</p>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 sessao-footer">
+                <h3><b>Contatos:</b></h3>
+                <div id="container-contatos">
+                    <div class="linha">
+                        <img src="./img/Icons/linkedin.png" alt="">&nbsp
+                        <h5>GameStore</h5>&nbsp&nbsp
+                        <img src="./img/Icons/whatsapp.png" alt="">&nbsp
+                        <h5>(31) 9 1234 - 5678</h5>
+                    </div>
+                    <div class="linha">
+                        <img src="./img/Icons/gmail.png" alt="">&nbsp
+                        <h5>gamestore@gmail.com</h5>&nbsp&nbsp
+                        <img src="./img/Icons/instagram.png" alt="">&nbsp
+                        <h5>GameStore</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 sessao-footer">
+                <h3><b>Sessões:</b></h3>
+                <h5><a href="./index.html">Home</a></h5>
+                <h5><a href="./login.html">Login e Cadastro</a></h5>
+                <h5><a href="./gestaoProduto.html">Gestão de Produto</a></h5>
+                <h5><a href="gestaoFuncionario.html">Funcionarios</a></h5>
+            </div>
+            <div class="col-md-4 sessao-footer">
+                <h3><b>Mais informações:</b></h3>
+                <div id="container-sessoes">
+                    <h5>CNPJ: 35.159.816/0001-47</h5>
+                    <h5>Endereço: 79320-210</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        // Menu controller
+        let lista = document.getElementById('contairner-lista')
+        let menu = document.getElementById('button-menu')
+
+        menu.addEventListener('click', () => {
+            if (lista.style.cssText == 'display: flex;') {
+                lista.style = 'display: none;'
+            } else {
+                lista.style = 'display: flex;'
+            }
+        })
+
+        const formatador = new Intl.NumberFormat('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+        })
+
+        document.getElementById('sair').addEventListener('click', () => {
+            localStorage.clear()
+            window.location.href = "./login.html"
+        })
+
+        let dados = {}
+
+        async function buscarDados() {
+
+            try {
+                const resposta = await fetch("https://localhost:7137/api/Estoque")
+
+                console.log(resposta)
+
+                if (!resposta.ok) {
+                    throw new Error(`Erro na requisição: ${resposta.status}`)
+                }
+
+                dados = await resposta.json()
+
+                console.log("Dados recebidos com sucesso:", dados)
+
+                filtrarDados()
+
+            } catch (erro) {
+                console.error("Houve um problema com a consulta:", erro)
+            }
+        }
+
+
+
+        console.log(dados)
+
+        let dadosFiltrados = {}
+
+        const minimo = document.getElementById('preco-minimo')
+        const maximo = document.getElementById('preco-maximo')
+        const nome = document.getElementById('filto-nome')
+        const descricao = document.getElementById('filto-descricao')
+        const disponivel = document.getElementById('filto-disponivel')
+
+        function filtrarDados() {
+
+            dadosFiltrados = dados
+            if (minimo.value != '') {
+                dadosFiltrados = dadosFiltrados.filter(p => {
+                    return p.preco >= minimo.value
+                })
+            }
+            if (maximo.value != '') {
+                dadosFiltrados = dadosFiltrados.filter(p => {
+                    return p.preco <= maximo.value
+                })
+            }
+            if (nome.value != '') {
+                dadosFiltrados = dadosFiltrados.filter(p => {
+                    return p.nome.toLowerCase().includes(nome.value.toLowerCase());
+                })
+            }
+            if (descricao.value != '') {
+                dadosFiltrados = dadosFiltrados.filter(p => {
+                    return p.descricao.toLowerCase().includes(descricao.value.toLowerCase());
+                })
+            }
+            if (disponivel.checked) {
+                dadosFiltrados = dadosFiltrados.filter(p => {
+                    return p.quantEstoque > 0 && p.ativo
+                })
+            }
+
+            let containerCard = document.getElementById('container-card')
+
+            let conjuntoCards = ""
+
+            dadosFiltrados.forEach(produto => {
+
+                let preco
+
+                if (produto.quantEstoque <= 0 || produto.ativo != true) {
+                    preco = 'ESGOTADO'
+                } else {
+                    preco = formatador.format(produto.preco)
+                }
+
+                conjuntoCards +=
+                    `
+                    <div class="card">
+                        <a href="./produto.html?id=${produto.id}" class="card-link">
+                            <img src="./img/jogos/${produto.imagem}" alt="" class="card-img">
+                            <p class="card-nome">${produto.nome}</p>
+                            <p class="card-descricao">${produto.descricao}</p>
+                            <p class="card-preco">${preco}</p>
+                        </a>
+                    </div>
+                    `
+            })
+
+            containerCard.innerHTML = conjuntoCards
+
+        }
+
+        buscarDados()
+
+        minimo.addEventListener('change', filtrarDados)
+        maximo.addEventListener('change', filtrarDados)
+        nome.addEventListener('change', filtrarDados)
+        descricao.addEventListener('change', filtrarDados)
+        disponivel.addEventListener('change', filtrarDados)
+    </script>
+</body>
+
+</html>

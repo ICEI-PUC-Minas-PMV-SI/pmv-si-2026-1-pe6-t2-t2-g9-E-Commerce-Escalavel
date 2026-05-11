@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <img src="./img/LogoGameStore.png" class="logo">
+
+    <div class="box">
+      <h3>Realizar Login</h3>
+
+      <label>Email:</label>
+      <input type="text" name="email" id="email">
+
+      <label>Senha:</label>
+      <input type="password" name="senha" id="senha">
+
+      <div class="buttons">
+        <a href="./cadastro.html">
+          <button class="botao-cadastro">Cadastrar</button>
+        </a>
+
+        <button class="botao-login" id="logar">Logar</button>
+      </div>
+    </div>
+
+  </div>
+  <script>
+    let botao = document.getElementById('logar')
+    botao.addEventListener('click', async () => {
+
+      let email = document.getElementById('email').value
+      let senha = document.getElementById('senha').value
+
+      if(email == '' || senha == ''){
+        alert('Email ou senha não preenchido')
+        return ''
+      }
+
+      try {
+        const resposta = await fetch('https://localhost:7137/api/Usuarios/authenticate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            "email": email,
+            "password": senha
+          })
+        })
+        
+        if(resposta.status == 200){
+          const token = await resposta.json()
+          localStorage.setItem('token', token.jwtToken)
+          window.location.href = "./index.html"
+        } else{
+          alert(await resposta.text())
+        }
+
+      } catch (e) {
+        console.log(e)
+        alert('Falha ao logar: ' + e)
+      }
+
+    })
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-3" id="container-logo">
+                <img src="./img/LogoGameStore.png" alt="Logo" id="logo">
+            </div>
+            <div class="col-md-6" id="container-procura">
+                <input type="text" name="procura" id="procura">
+                <button id="lupa"><img src="./img/Icons/lupa.png" alt="" width="100%" height="100%"></button>
+            </div>
+            <div class="col-md-3" id="container-menu">
+                <button id="button-menu"><img src="./img/Icons/menu.png" alt="Menu" width="100%" height="100%"></button>
+            </div>
+        </div>
+    </header>
+
+    <nav id="contairner-lista" style="display: none;">
+        <a href="./index.html">
+            <b>
+                <h3>Home</h3>
+            </b>
+        </a>
+        <a href="./perfil.html">
+            <b>
+                <h3>Perfil</h3>
+            </b>
+        </a>
+        <a href="./carrinho.html">
+            <b>
+                <h3>Carrinho</h3>
+            </b>
+        </a>
+        <a href="./login.html">
+            <b>
+                <h3>Login e Cadastro</h3>
+            </b>
+        </a>
+        <a href="#">
+            <b>
+                <h3 id="sair">Sair</h3>
+            </b>
+        </a>
+    </nav>
+
+    <section id="container-perfil">
+        <div class="box">
+            <h3>Realizar Cadastro</h3>
+
+            <label>Usuário:</label>
+            <input type="text" name="usuario" id="usuario">
+
+            <label>Email:</label>
+            <input type="text" name="email" id="email">
+
+            <label>Senha:</label>
+            <input type="password" name="senha" id="senha">
+
+            <div class="buttons">
+                <button class="alert" id="desativar">Desativar usuário</button>
+
+                <button class="botao-cadastro" id="salvar">Salvar</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 sessao-footer">
+                <h3><b>Contatos:</b></h3>
+                <div id="container-contatos">
+                    <div class="linha">
+                        <img src="./img/Icons/linkedin.png" alt="">&nbsp
+                        <h5>GameStore</h5>&nbsp&nbsp
+                        <img src="./img/Icons/whatsapp.png" alt="">&nbsp
+                        <h5>(31) 9 1234 - 5678</h5>
+                    </div>
+                    <div class="linha">
+                        <img src="./img/Icons/gmail.png" alt="">&nbsp
+                        <h5>gamestore@gmail.com</h5>&nbsp&nbsp
+                        <img src="./img/Icons/instagram.png" alt="">&nbsp
+                        <h5>GameStore</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 sessao-footer">
+                <h3><b>Sessões:</b></h3>
+                <h5><a href="./index.html">Home</a></h5>
+                <h5><a href="./login.html">Login e Cadastro</a></h5>
+                <h5><a href="./gestaoProduto.html">Gestão de Produto</a></h5>
+                <h5><a href="./gestaoFuncionario.html">Funcionarios</a></h5>
+            </div>
+            <div class="col-md-4 sessao-footer">
+                <h3><b>Mais informações:</b></h3>
+                <div id="container-sessoes">
+                    <h5>CNPJ: 35.159.816/0001-47</h5>
+                    <h5>Endereço: 79320-210</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let token = ''
+
+        if(!localStorage.getItem('token')){
+            window.location.href = "./login.html"
+        }
+
+        token = localStorage.getItem('token');
+
+        // Comando que retorna o ID do usuário através do jwtToken
+        const idUsuario = JSON.parse(atob(token.split('.')[1])).nameid
+
+        // Menu controller
+        let lista = document.getElementById('contairner-lista')
+        let menu = document.getElementById('button-menu')
+
+        menu.addEventListener('click', () => {
+            console.log('a')
+            if (lista.style.cssText == 'display: flex;') {
+                lista.style = 'display: none;'
+            } else {
+                lista.style = 'display: flex;'
+            }
+        })
+
+        document.getElementById('sair').addEventListener('click', () => {
+            localStorage.clear()
+            window.location.href = "./login.html"
+        })
+
+        const formatador = new Intl.NumberFormat('pt-BR', {
+            style: 'currency',
+            currency: 'BRL',
+        });
+
+        const usuario = document.getElementById('usuario')
+        const email = document.getElementById('email')
+        const senha = document.getElementById('senha')
+
+        
+
+        async function carregaUsuario() {
+            try {
+                const resposta = await fetch('https://localhost:7137/api/Usuarios/' + idUsuario, {
+                    method: 'GET',
+                    headers: { 'Content-Type': 'application/json' },
+                })
+
+                const dados = await resposta.json()
+
+                if (resposta.status == 200) {
+                    usuario.value = dados.nome
+                    email.value = dados.email
+                } else {
+                    alert("Falha ao carregar usuário")
+                }
+
+            } catch (e) {
+                alert('Falha ao carregar usuário: ' + e)
+            }
+        }
+
+        const desativar = document.getElementById('desativar')
+
+        desativar.addEventListener('click', async () => {
+            try {
+                const resposta = await fetch('https://localhost:7137/api/Usuarios/' + idUsuario, {
+                    method: 'DELETE',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                })
+
+                console.log(resposta)
+
+                if (resposta.status == 204) {
+                    alert('Usuário desativado com sucesso')
+                    localStorage.clear()
+                    window.location.href = "./login.html"
+                } else {
+                    alert(await resposta.text())
+                }
+
+            } catch (e) {
+                alert('Falha ao remover usuário: ' + e)
+            }
+        })
+
+        const salvar = document.getElementById('salvar')
+
+        salvar.addEventListener('click', async () => {
+
+            const usuario = document.getElementById('usuario').value
+            const email = document.getElementById('email').value
+            const senha = document.getElementById('senha').value
+
+            if (usuario == '' || email == '') {
+                alert('Usuário, email ou senha não preenchido')
+                return ''
+            }
+
+            try {
+                const resposta = await fetch('https://localhost:7137/api/Usuarios/' + idUsuario, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        "nome": usuario,
+                        "email": email,
+                        "password": senha,
+                        "perfil": 1
+                    })
+                })
+
+                console.log(resposta)
+
+                if (resposta.status == 204) {
+                    alert('Usuário atualizado com sucesso')
+                } else {
+                    alert(await resposta.text())
+                }
+
+            } catch (e) {
+                alert('Falha ao atualizar usuário: ' + e)
+            }
+        })
+
+        carregaUsuario()
+
+    </script>
+</body>
+
+</html>

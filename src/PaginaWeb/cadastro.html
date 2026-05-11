@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <img src="./img/LogoGameStore.png" class="logo">
+
+    <div class="box">
+      <h3>Realizar Cadastro</h3>
+
+      <label>Usuário:</label>
+      <input type="text" name="usuario" id="usuario">
+
+      <label>Email:</label>
+      <input type="text" name="email" id="email">
+
+      <label>Senha:</label>
+      <input type="password" name="senha" id="senha">
+
+      <label>Confirmar senha:</label>
+      <input type="password" name="conSenha" id="conSenha">
+
+      <div class="buttons">
+        <a href="./login.html">
+          <button class="botao-login" id="logar">Logar</button>
+        </a>
+
+        <button class="botao-cadastro" id="cadastrar">Cadastrar</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+
+    let botaoLogin = document.getElementById('cadastrar')
+
+    botaoLogin.addEventListener('click', async () => {
+      let usuario = document.getElementById('usuario').value
+      let email = document.getElementById('email').value
+      let senha = document.getElementById('senha').value
+      let conSenha = document.getElementById('conSenha').value
+
+      if (usuario == "" || senha == "" || conSenha == "" || email == "") {
+        alert("Usuário ou senha não preenchido")
+        return ""
+      } else if (senha != conSenha) {
+        alert("Senhas e confirmação de senha não corresponde")
+        return ""
+      }
+
+      try {
+        const resposta = await fetch('https://localhost:7137/api/Usuarios', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            "nome": usuario,
+            "email": email,
+            "password": senha,
+            "perfil": 1
+          }) // Converte objeto para texto
+        });
+
+
+        console.log(resposta)
+
+        if (resposta.ok) {
+          alert("Usuário cadastrado com sucesso!\nFaça seu primeiro login.")
+          window.location.href = "./login.html"
+        } else {
+          alert(await resposta.text())
+        }
+      } catch (e) {
+        alert("Falha ao cadastrar usuário: " + e)
+      }
+
+    })
+  </script>
+
+</body>
+
+</html>
