@@ -312,8 +312,18 @@ A implantação da aplicação será realizada em ambiente de nuvem, garantindo 
 Esses procedimentos garantirão que a aplicação esteja operando corretamente em ambiente de produção e seja capaz de suportar os requisitos de desempenho definidos pelo projeto.
 
 ## Testes
+A estratégia de testes da aplicação móvel foi definida com o objetivo de garantir o funcionamento correto da interface, a integração com a API e o desempenho da aplicação em dispositivos móveis. Considerando o escopo do projeto, os testes são voltados exclusivamente às funcionalidades disponíveis para o usuário final, não contemplando funcionalidades administrativas, como gestão de produtos e gestão de funcionários, que são restritas à versão web da aplicação.
+Inicialmente, foram definidos casos de teste para validar funcionalidades como cadastro, login, visualização de produtos, gerenciamento de favoritos, uso do carrinho de compras e finalização de pedidos. Esses testes asseguram que as interações realizadas no aplicativo resultem nos comportamentos esperados.
+Os testes unitários foram aplicados às funções do frontend desenvolvidas em React Native, garantindo o correto funcionamento de componentes e validações, como preenchimento de formulários e tratamento de dados.
+Também foram realizados testes de integração, com o objetivo de verificar a comunicação entre o aplicativo móvel e a API REST, garantindo que as requisições HTTP e o consumo de dados ocorram corretamente.
+Por fim, foram considerados testes de carga e performance, avaliando o comportamento da aplicação sob uso contínuo e verificando aspectos como tempo de resposta e fluidez da navegação.
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+### Casos de Teste
+#### Cadastro de Usuário
+| Caso | Entrada | Resultado esperado |
+| :---: | :---: | :---: |
+| Cadastro válido | Dados corretos | Usuário criado |
+| Email duplicado | Email já cadastrado | Erro |
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
 2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
