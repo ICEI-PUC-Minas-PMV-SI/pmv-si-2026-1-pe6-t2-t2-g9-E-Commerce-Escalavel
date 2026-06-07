@@ -320,63 +320,69 @@ Por fim, foram considerados testes de carga e performance, avaliando o comportam
 
 ### Casos de Teste
 
-#### Cadastro de Usuário
+Cadastro de Usuário
 | Caso | Entrada | Resultado Esperado |
 | :---: | :---: | :---: |
 | Cadastro válido | Dados corretos | Usuário criado |
 | Email duplicado | Email já cadastrado | Erro |
+<img width="1918" height="912" alt="Captura de tela 2026-06-07 185419" src="https://github.com/user-attachments/assets/eece4f6a-7f9f-4a6e-a54b-4a0d61974814" />
+<img width="1918" height="906" alt="Captura de tela 2026-06-07 185453" src="https://github.com/user-attachments/assets/a58b86d7-7f7a-4eec-a8e9-17bb7cc47a0e" />
 
-#### Login
+Login
 | Caso | Entrada | Resultado Esperado |
 | :---: | :---: | :---: |
 | Login válido | Dados corretos | Sucesso |
 | Login inválido | Dados incorretos | Erro |
+<img width="1917" height="910" alt="Captura de tela 2026-06-07 185535" src="https://github.com/user-attachments/assets/5b6e0b71-54de-4d33-bafb-98ee72e43cce" />
+<img width="1919" height="912" alt="Captura de tela 2026-06-07 185942" src="https://github.com/user-attachments/assets/0059c8e4-5145-444d-bfec-d219907e3f50" />
 
-#### Atualização Dados
+Atualização Dados
 | Caso | Resultado Esperado |
 | :---: | :---: |
 | Atualizar dados | Dados atualizados |
+<img width="1919" height="842" alt="Captura de tela 2026-06-07 190028" src="https://github.com/user-attachments/assets/f6425784-a5c8-4056-b581-9eb85fa361d2" />
 
-#### Desativar Conta
+Desativar Conta
 | Caso | Resultado Esperado |
 | :---: | :---: |
 | Desativar conta | Conta desativada |
+<img width="1600" height="702" alt="WhatsApp Image 2026-06-07 at 19 17 21" src="https://github.com/user-attachments/assets/94d1f719-ba8f-4252-badc-ae188b60459d" />
 
-#### Listagem de Produtos
+Listagem de Produtos
 | Caso | Entrada | Resultado Esperado |
 | :---: | :---: | :---: |
 | Abrir produto | Seleção de item | Detalhes exibidos |
+<img width="1919" height="911" alt="Captura de tela 2026-06-07 195108" src="https://github.com/user-attachments/assets/1e7a6886-514f-466b-8864-928c06b589f6" />
 
-#### Favoritos
-| Caso | Entrada | Resultado Esperado |
-| :---: | :---: | :---: |
-| Adicionar favorito | Selecionar produto | Produto adicionado |
-| Remover favorito | Produto selecionado | Produto removido |
-
-#### Carrinho
+Adicionar Produto no Carrinho
 | Caso | Entrada | Resultado Esperado |
 | :---: | :---: | :---: |
 | Adicionar item | Produto + quantidade | Produto no carrinho |
-| Alterar quantidade | Nova quantidade | Carrinho atualizado |
-| Remover item | Produto selecionado | Produto removido |
+<img width="631" height="781" alt="WhatsApp Image 2026-06-07 at 19 24 45" src="https://github.com/user-attachments/assets/6ef26c5c-e658-4578-b369-0b81f3690c23" />
 
-#### Compra
+Alterar quantidade de produtos no carrinho
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Alterar quantidade | Nova quantidade | Carrinho atualizado |
+<img width="631" height="776" alt="WhatsApp Image 2026-06-07 at 19 34 11" src="https://github.com/user-attachments/assets/076ef207-4ad4-48d6-8ba2-b8a8812d1133" />
+
+Remover produtos do carrinho
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Remover item | Produto selecionado | Produto removido |
+<img width="1227" height="924" alt="WhatsApp Image 2026-06-07 at 19 24 19" src="https://github.com/user-attachments/assets/a48a19e0-4ac4-40ba-9c36-e45b43c09d5f" />
+
+Realizar Compra
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Finalizar compra | Carrinho Chieo | Pedido registrado com sucesso |
+<img width="1187" height="924" alt="WhatsApp Image 2026-06-07 at 19 33 49" src="https://github.com/user-attachments/assets/29052094-1cbc-42bf-8837-781c7b15e5a6" />
+
+Realizar Compra com o carrinho vazio
 | Caso | Entrada | Resultado Esperado |
 | :---: | :---: | :---: |
 | Finalizar compra | Carrinho Vazio | Pedido não registrado |
-| Finalizar compra | Carrinho Chieo | Pedido registrado com sucesso |
-| Remover favorito | Produto selecionado | Produto removido |
-
-### Testes Unitários
-| Teste | Descrição | Resultado |
-| :---: | :---: | :---: |
-| Login_Valido | Valida login com dados corretos | Aprovado |
-| Login_Invalido | Valida erro no login | Aprovado |
-| Validação_Formulario | Verifica campos obrigatórios | Aprovado |
-
-### Testes de Integração
-Os testes de integração foram evidenciados por meio da validação do fluxo completo entre o frontend, a API e o banco de dados. Foram realizadas requisições reais a partir da interface da aplicação, verificando o envio e retorno correto dos dados.
-Como evidência, foram coletadas capturas de tela que demonstram o funcionamento das principais funcionalidades integradas, como autenticação de usuário, consulta de produtos e realização de pedidos. Essas evidências comprovam que a comunicação entre os componentes do sistema ocorre de forma correta e consistente.
+<img width="1919" height="913" alt="Captura de tela 2026-06-07 190628" src="https://github.com/user-attachments/assets/a483b97d-c606-48b0-86ca-9a05afccb91d" />
 
 ### Testes de Carga e Performance
 | Ferramenta | Objetivo | Resultado |
@@ -386,7 +392,7 @@ Como evidência, foram coletadas capturas de tela que demonstram o funcionamento
 | Lighthouse | Analisar boas práticas de desenvolvimento web | Best Practices 100 |
 | Lighthouse | Avaliar otimização para mecanismos de busca | SEO 82 |
 
-<img width="800" height="770" alt="image" src="https://github.com/user-attachments/assets/d0b35335-a52d-4863-ba7b-f4e09b2d5860" />
+<img width="900" height="866" alt="Captura de tela 2026-06-07 191031" src="https://github.com/user-attachments/assets/82738db9-d7e2-4ff9-b7ea-feb35d455756" />
 
 # Referências
 
