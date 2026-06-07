@@ -332,6 +332,16 @@ Por fim, foram considerados testes de carga e performance, avaliando o comportam
 | Login válido | Dados corretos | Sucesso |
 | Login inválido | Dados incorretos | Erro |
 
+#### Atualização Dados
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Atualizar dados | Dados atualizados |
+
+#### Desativar Conta
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Desativar conta | Conta desativada |
+
 #### Listagem de Produtos
 | Caso | Entrada | Resultado Esperado |
 | :---: | :---: | :---: |
@@ -377,7 +387,6 @@ Esses testes garantem que os dados enviados e recebidos estejam corretos e consi
 | :---: | :---: | :---: |
 | Expo Performance Monitor | Monitorar uso de CPU/memória | Estável |
 | Testes manuais | Avaliar fluidez da navegação | Sem impedimentos |
-
 
 # Referências
 
