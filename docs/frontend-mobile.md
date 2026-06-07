@@ -375,12 +375,8 @@ Por fim, foram considerados testes de carga e performance, avaliando o comportam
 | Validação_Formulario | Verifica campos obrigatórios | Aprovado |
 
 ### Testes de Integração
-Os testes de integração foram realizados para validar a comunicação entre o aplicativo móvel e a API REST. Foram verificados:
-Autenticação via JWT
-Consumo da API de produtos
-Registro de pedidos
-Recuperação de favoritos
-Esses testes garantem que os dados enviados e recebidos estejam corretos e consistentes com o backend.
+Os testes de integração foram evidenciados por meio da validação do fluxo completo entre o frontend, a API e o banco de dados. Foram realizadas requisições reais a partir da interface da aplicação, verificando o envio e retorno correto dos dados.
+Como evidência, foram coletadas capturas de tela que demonstram o funcionamento das principais funcionalidades integradas, como autenticação de usuário, consulta de produtos e realização de pedidos. Essas evidências comprovam que a comunicação entre os componentes do sistema ocorre de forma correta e consistente.
 
 ### Testes de Carga e Performance
 | Ferramenta | Objetivo | Resultado |
