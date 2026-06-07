@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 07/06/2026 23:55
+**Última atualização:** 07/06/2026 23:58
 
 ---
 
@@ -9,16 +9,16 @@
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
 | CassioVenutoMonteiro  |        11 |        73 |        53 |          3 |             11 |               3 |
-| LuisMoura1            |        73 |     17844 |       385 |         95 |             45 |               7 |
+| LuisMoura1            |        74 |     17845 |       385 |         96 |             45 |               7 |
 | Pedro Teixeira        |         7 |       576 |        48 |          5 |              7 |               5 |
-| github-actions[bot]   |        87 |       550 |       530 |          3 |             87 |               1 |
+| github-actions[bot]   |        88 |       554 |       534 |          3 |             88 |               1 |
 | github-classroom[bot] |         1 |      2152 |         0 |         45 |              1 |              13 |
 | paolabraga            |        30 |       418 |       100 |          6 |             30 |               6 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-31**: LuisMoura1: 13, Pedro Teixeira: 1, github-actions[bot]: 20, paolabraga: 9
+**2026-05-31**: LuisMoura1: 14, Pedro Teixeira: 1, github-actions[bot]: 21, paolabraga: 9
 
 **2026-05-24**: github-actions[bot]: 1
 
