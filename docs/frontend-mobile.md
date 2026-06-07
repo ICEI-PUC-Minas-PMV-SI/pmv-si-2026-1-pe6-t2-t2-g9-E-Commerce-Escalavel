@@ -385,8 +385,12 @@ Esses testes garantem que os dados enviados e recebidos estejam corretos e consi
 ### Testes de Carga e Performance
 | Ferramenta | Objetivo | Resultado |
 | :---: | :---: | :---: |
-| Expo Performance Monitor | Monitorar uso de CPU/memória | Estável |
-| Testes manuais | Avaliar fluidez da navegação | Sem impedimentos |
+| Lighthouse | Avaliar desempenho e otimização das páginas do frontend | Performance 31 |
+| Lighthouse | Verificar acessibilidade da interface | Accessibility 96 |
+| Lighthouse | Analisar boas práticas de desenvolvimento web | Best Practices 100 |
+| Lighthouse | Avaliar otimização para mecanismos de busca | SEO 82 |
+
+<img width="800" height="770" alt="image" src="https://github.com/user-attachments/assets/d0b35335-a52d-4863-ba7b-f4e09b2d5860" />
 
 # Referências
 
