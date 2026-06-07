@@ -333,13 +333,13 @@ Por fim, foram considerados testes de carga e performance, avaliando o comportam
 | Login inválido | Dados incorretos | Erro |
 
 #### Atualização Dados
-| Caso | Entrada | Resultado Esperado |
-| :---: | :---: | :---: |
+| Caso | Resultado Esperado |
+| :---: | :---: |
 | Atualizar dados | Dados atualizados |
 
 #### Desativar Conta
-| Caso | Entrada | Resultado Esperado |
-| :---: | :---: | :---: |
+| Caso | Resultado Esperado |
+| :---: | :---: |
 | Desativar conta | Conta desativada |
 
 #### Listagem de Produtos
