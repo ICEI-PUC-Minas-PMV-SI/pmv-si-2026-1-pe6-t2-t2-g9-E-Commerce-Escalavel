@@ -319,11 +319,42 @@ Também foram realizados testes de integração, com o objetivo de verificar a c
 Por fim, foram considerados testes de carga e performance, avaliando o comportamento da aplicação sob uso contínuo e verificando aspectos como tempo de resposta e fluidez da navegação.
 
 ### Casos de Teste
+
 #### Cadastro de Usuário
-| Caso | Entrada | Resultado esperado |
+| Caso | Entrada | Resultado Esperado |
 | :---: | :---: | :---: |
 | Cadastro válido | Dados corretos | Usuário criado |
 | Email duplicado | Email já cadastrado | Erro |
+
+#### Login
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Login válido | Dados corretos | Sucesso |
+| Login inválido | Dados incorretos | Erro |
+
+#### Listagem de Produtos
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Abrir produto | Seleção de item | Detalhes exibidos |
+
+#### Favoritos
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Adicionar favorito | Selecionar produto | Produto adicionado |
+| Remover favorito | Produto selecionado | Produto removido |
+
+#### Carrinho
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Adicionar item | Produto + quantidade | Produto no carrinho |
+| Alterar quantidade | Nova quantidade | Carrinho atualizado |
+| Remover item | Produto selecionado | Produto removido |
+
+#### Compra
+| Caso | Resultado Esperado |
+| :---: | :---: |
+| Finalizar compra | Pedido registrado com sucesso |
+| Remover favorito | Produto selecionado | Produto removido |
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
 2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
