@@ -351,16 +351,33 @@ Por fim, foram considerados testes de carga e performance, avaliando o comportam
 | Remover item | Produto selecionado | Produto removido |
 
 #### Compra
-| Caso | Resultado Esperado |
-| :---: | :---: |
-| Finalizar compra | Pedido registrado com sucesso |
+| Caso | Entrada | Resultado Esperado |
+| :---: | :---: | :---: |
+| Finalizar compra | Carrinho Vazio | Pedido não registrado |
+| Finalizar compra | Carrinho Chieo | Pedido registrado com sucesso |
 | Remover favorito | Produto selecionado | Produto removido |
 
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+### Testes Unitários
+| Teste | Descrição | Resultado |
+| :---: | :---: | :---: |
+| Login_Valido | Valida login com dados corretos | Aprovado |
+| Login_Invalido | Valida erro no login | Aprovado |
+| Validação_Formulario | Verifica campos obrigatórios | Aprovado |
+
+### Testes de Integração
+Os testes de integração foram realizados para validar a comunicação entre o aplicativo móvel e a API REST. Foram verificados:
+Autenticação via JWT
+Consumo da API de produtos
+Registro de pedidos
+Recuperação de favoritos
+Esses testes garantem que os dados enviados e recebidos estejam corretos e consistentes com o backend.
+
+### Testes de Carga e Performance
+| Ferramenta | Objetivo | Resultado |
+| :---: | :---: | :---: |
+| Expo Performance Monitor | Monitorar uso de CPU/memória | Estável |
+| Testes manuais | Avaliar fluidez da navegação | Sem impedimentos |
+
 
 # Referências
 
