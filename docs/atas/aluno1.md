@@ -17,10 +17,10 @@
 | 20/04 - 26/04 | Computação Ubíqua e Pervasiva e IoT - Unidade 2 | ✅ | Desenvolvimento das páginas Home, Gestão de Funcionários, Gestão de Produtos, Perfil e Carrinho | sim |
 | 27/04 - 03/05 | Desenvolvimento de Aplicações Móveis - Unidade 1 | ✅ | Conexão entre o front-end e a API em todas as páginas do site | sim |
 | 04/05 - 10/05 | Desenvolvimento de Aplicações Móveis - Unidade 2 | ✅ | Conexão entre o front-end e a API em todas as páginas do site | sim |
-| 11/05 - 17/05 | Desenvolvimento de Aplicações Móveis - Unidade 2 | ⬜ |  |  |
-| 18/05 - 24/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 1 | ⬜ |  |  |
-| 25/05 - 31/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 2 | ⬜ |  |  |
-| 01/06 - 07/06 |  | ⬜ |  |  |
+| 11/05 - 17/05 | Desenvolvimento de Aplicações Móveis - Unidade 2 | ✅ | Divisão das partes | sim |
+| 18/05 - 24/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 1 | ✅ | Desenvolvimento front-end do aplicativo | sim |
+| 25/05 - 31/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 2 | ✅ | Desenvolvimento back-end do aplicativo | sim |
+| 01/06 - 07/06 |  | ✅ | Desenvolvimento back-end do aplicativo | sim |
 | 08/06 - 14/06 |  | ⬜ |  |  |
 
 **Legenda:** ✅ Estudou | ⬜ Não estudou
