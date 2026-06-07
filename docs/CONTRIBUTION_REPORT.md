@@ -9,16 +9,16 @@
 | Aluno                 |   Commits |   Linhas+ |   Linhas- |   Arquivos |   Docs Commits |   Docs Arquivos |
 |-----------------------|-----------|-----------|-----------|------------|----------------|-----------------|
 | CassioVenutoMonteiro  |        11 |        73 |        53 |          3 |             11 |               3 |
-| LuisMoura1            |        68 |     15817 |       383 |         74 |             45 |               7 |
+| LuisMoura1            |        69 |     15817 |       384 |         74 |             45 |               7 |
 | Pedro Teixeira        |         7 |       576 |        48 |          5 |              7 |               5 |
-| github-actions[bot]   |        84 |       539 |       519 |          3 |             84 |               1 |
+| github-actions[bot]   |        85 |       543 |       523 |          3 |             85 |               1 |
 | github-classroom[bot] |         1 |      2152 |         0 |         45 |              1 |              13 |
 | paolabraga            |        30 |       418 |       100 |          6 |             30 |               6 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-31**: LuisMoura1: 8, Pedro Teixeira: 1, github-actions[bot]: 17, paolabraga: 9
+**2026-05-31**: LuisMoura1: 9, Pedro Teixeira: 1, github-actions[bot]: 18, paolabraga: 9
 
 **2026-05-24**: github-actions[bot]: 1
 
