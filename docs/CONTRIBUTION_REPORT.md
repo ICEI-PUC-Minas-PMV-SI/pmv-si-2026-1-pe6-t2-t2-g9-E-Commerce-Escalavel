@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 07/06/2026 17:04
+**Última atualização:** 07/06/2026 21:50
 
 ---
 
@@ -11,14 +11,14 @@
 | CassioVenutoMonteiro  |        11 |        73 |        53 |          3 |             11 |               3 |
 | LuisMoura1            |        60 |      6105 |       350 |         63 |             41 |               5 |
 | Pedro Teixeira        |         7 |       576 |        48 |          5 |              7 |               5 |
-| github-actions[bot]   |        68 |       443 |       427 |          3 |             68 |               1 |
+| github-actions[bot]   |        69 |       464 |       444 |          3 |             69 |               1 |
 | github-classroom[bot] |         1 |      2152 |         0 |         45 |              1 |              13 |
-| paolabraga            |        21 |       322 |        71 |          5 |             21 |               5 |
+| paolabraga            |        22 |       334 |        73 |          6 |             22 |               6 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
 
-**2026-05-31**: Pedro Teixeira: 1, github-actions[bot]: 1
+**2026-05-31**: Pedro Teixeira: 1, github-actions[bot]: 2, paolabraga: 1
 
 **2026-05-24**: github-actions[bot]: 1
 
@@ -32,9 +32,9 @@
 
 **2026-04-19**: github-actions[bot]: 1
 
-**2026-04-12**: CassioVenutoMonteiro: 1, LuisMoura1: 6, github-actions[bot]: 10, paolabraga: 2
+**2026-04-12**: LuisMoura1: 3, github-actions[bot]: 4
 
-**2026-04-05**: LuisMoura1: 19, github-actions[bot]: 20
+**2026-04-05**: CassioVenutoMonteiro: 1, LuisMoura1: 22, github-actions[bot]: 26, paolabraga: 2
 
 **2026-03-29**: CassioVenutoMonteiro: 1, github-actions[bot]: 7, paolabraga: 5
 
@@ -42,9 +42,9 @@
 
 **2026-03-15**: github-actions[bot]: 1
 
-**2026-03-08**: CassioVenutoMonteiro: 4, LuisMoura1: 2, Pedro Teixeira: 1, paolabraga: 2
+**2026-03-08**: CassioVenutoMonteiro: 2, LuisMoura1: 2, Pedro Teixeira: 1, paolabraga: 2
 
-**2026-03-01**: CassioVenutoMonteiro: 2, LuisMoura1: 2, Pedro Teixeira: 4, paolabraga: 6
+**2026-03-01**: CassioVenutoMonteiro: 4, LuisMoura1: 2, Pedro Teixeira: 4, paolabraga: 6
 
 **2026-02-22**: CassioVenutoMonteiro: 2, LuisMoura1: 4, paolabraga: 1
 
