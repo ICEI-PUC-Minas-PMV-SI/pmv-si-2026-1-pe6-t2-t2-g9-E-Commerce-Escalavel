@@ -30,7 +30,40 @@ A navegação entre telas é realizada por meio do React Navigation, proporciona
 
 ### Wireframes
 
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+A definição da disposição dos componentes na página foi realizada com foco na organização visual, usabilidade e consistência da interface. Foram estabelecidos critérios para a hierarquia das informações, priorizando os elementos mais relevantes para o usuário e garantindo que as ações principais estivessem facilmente acessíveis. Além disso, foi planejado o fluxo de navegação entre as telas, permitindo uma experiência intuitiva e contínua durante a utilização do sistema.
+
+Nesse processo, foram definidos a localização e o comportamento dos principais elementos da interface, como menus de navegação, áreas de conteúdo, listas de produtos, formulários, botões de ação e seções informativas. A estrutura foi projetada para facilitar a identificação das funcionalidades disponíveis e reduzir a quantidade de interações necessárias para a execução das tarefas mais comuns.
+
+As telas seguem um padrão estrutural consistente, contribuindo para a uniformidade visual e para a familiaridade do usuário com o sistema. O cabeçalho permanece fixo em todas as páginas, contendo a logomarca da plataforma, o campo de busca e o menu principal de navegação, permitindo acesso rápido aos recursos essenciais independentemente da tela acessada. A área central é reservada para o conteúdo específico de cada funcionalidade, adaptando-se conforme o contexto e as necessidades de cada página. Já o rodapé mantém informações institucionais, dados de contato, links complementares e demais informações de suporte, reforçando a padronização da interface e auxiliando na navegação.
+
+Na página inicial (index), foi definida a estrutura principal da aplicação, servindo como base para o desenvolvimento das demais telas. Essa página contempla o cabeçalho padronizado, além de uma área central destinada à exibição dos jogos cadastrados em formato de cards. Cada card apresenta informações resumidas e relevantes sobre o jogo, possibilitando uma visualização rápida e organizada dos itens disponíveis. Complementando essa funcionalidade, foram incluídos filtros laterais que permitem ao usuário refinar os resultados de acordo com critérios específicos, tornando o processo de busca mais eficiente.
+
+Também foi elaborada uma versão da página index com o menu lateral expandido, permitindo avaliar a organização das opções de navegação, a distribuição dos elementos na interface e a facilidade de acesso às diferentes seções do sistema. Essa representação contribuiu para a validação da arquitetura da informação, garantindo que as funcionalidades estivessem agrupadas de forma lógica e que o usuário pudesse localizar rapidamente os recursos desejados. Dessa forma, a página inicial não apenas apresenta o conteúdo principal da plataforma, mas também estabelece os padrões de navegação e interação adotados em todo o sistema.
+
+#### Index:
+<img width="510" height="778" alt="1" src="https://github.com/user-attachments/assets/00db6b8b-a25e-43f8-b46b-bb3ff29e8d66" />
+
+A tela de visualização de produto teve seu wireframe estruturado para destacar a imagem do jogo, o título, a descrição e as informações de preço, organizando os elementos de forma clara para facilitar a decisão de compra. Já o wireframe do carrinho de compras definiu a separação entre a lista de produtos selecionados e a área de informações resumidas da compra, incluindo valor total e ações como finalizar pedido ou remover itens.
+
+#### Visualizar Produto:
+<img width="511" height="781" alt="2" src="https://github.com/user-attachments/assets/2a578c57-ab48-4a81-a8c3-c7a4ad1529f3" />
+
+#### Carrinho:
+<img width="510" height="779" alt="3" src="https://github.com/user-attachments/assets/73154da7-37c1-4b23-995b-e447e23aa1aa" />
+
+#### Compra Realizada:
+<img width="511" height="780" alt="8" src="https://github.com/user-attachments/assets/3cba44ea-a5bb-46a8-94db-5f59f0f6e3c7" />
+
+#### Login:
+<img width="382" height="778" alt="4" src="https://github.com/user-attachments/assets/d6612bc7-1ded-400d-8115-57e3767a47f3" />
+
+#### Cadastro:
+<img width="382" height="777" alt="5" src="https://github.com/user-attachments/assets/04d63557-ffc6-4584-9e4f-d47b040e471a" />
+
+#### Perfil:
+<img width="510" height="779" alt="7" src="https://github.com/user-attachments/assets/fe314475-a762-4b1e-b951-db50b1a3c2a2" />
+
+Dessa forma, é possível visualizar e validar a organização de todas as telas desenvolvidas, garantindo uma estrutura consistente e funcional, que serviu como base sólida para a implementação final.
 
 ### Design Visual
 
