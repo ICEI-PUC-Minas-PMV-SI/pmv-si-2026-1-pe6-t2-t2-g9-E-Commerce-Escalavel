@@ -1,14 +1,28 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Platform } from 'react-native';
 import { Appbar } from 'react-native-paper';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const Header = ({ title, goBack, children }) => {
+  // Captura os espaçamentos seguros do dispositivo atual
+  const insets = useSafeAreaInsets();
+
   return (
-    <Appbar.Header style={styles.headerContainer}>
+    <Appbar.Header 
+      style={[
+        styles.headerContainer, 
+        { 
+          // Aplica o espaçamento do topo dinamicamente baseado no dispositivo
+          paddingTop: insets.top,
+          // Ajusta a altura do Header para somar o tamanho da barra de status
+          height: (Platform.OS === 'ios' ? 44 : 56) + insets.top 
+        }
+      ]}
+    >
       {goBack && (
         <Appbar.BackAction 
           onPress={goBack} 
-          color="#333333" // Ícone de voltar escuro para contrastar com o fundo claro
+          color="#333333" 
         />
       )}
       <Appbar.Content 
@@ -22,15 +36,15 @@ const Header = ({ title, goBack, children }) => {
 
 const styles = StyleSheet.create({
   headerContainer: {
-    backgroundColor: '#79E0DC', // Nova cor turquesa idêntica ao fundo do Login/Cadastro
-    elevation: 4, // Sombra sutil no Android
-    shadowColor: '#000', // Configuração de sombra para o iOS
+    backgroundColor: '#79E0DC', 
+    elevation: 4, 
+    shadowColor: '#000', 
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.15,
     shadowRadius: 3,
   },
   headerTitulo: {
-    color: '#333333', // Texto escuro para manter a legibilidade excelente
+    color: '#333333', 
     fontWeight: 'bold',
     fontSize: 20,
   },
