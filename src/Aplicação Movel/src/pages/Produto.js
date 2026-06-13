@@ -6,8 +6,10 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import api from '../services/api';
 
 const DetalheProduto = ({ route, navigation }) => {
+
+  
   // Recebe o ID do produto através da navegação da Prateleira
-  const idProduto = route?.params?.id || '1'; 
+  const idProduto = route?.params?.item?.id ; 
 
   const [produto, setProduto] = useState(null);
   const [loading, setLoading] = useState(true);

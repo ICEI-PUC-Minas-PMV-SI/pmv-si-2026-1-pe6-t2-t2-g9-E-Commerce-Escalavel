@@ -71,6 +71,7 @@ const Prateleira = () => {
   } 
 
   const renderItem = ({ item }) => (
+    
     <Card style={styles.card} onPress={() => navigation.navigate('Produto', { item })}>
       <Card.Title
         title={item.nome}
