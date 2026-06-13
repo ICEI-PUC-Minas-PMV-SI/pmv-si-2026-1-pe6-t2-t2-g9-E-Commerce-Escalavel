@@ -175,10 +175,10 @@
             let total = 0
 
             try {
-                const resposta = await fetch('https://localhost:7137/api/Carrinho/Usuario/' + idUsuario, {
+                const resposta = await fetch('https://satchel-carry-yard.ngrok-free.dev/api/Carrinho/Usuario/' + idUsuario, {
                     method: 'GET',
                     headers: {
-                        'Content-Type': 'application/json',
+                        'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true',
                         'Authorization': `Bearer ${token}`,
                     }
                 });
@@ -209,7 +209,12 @@
         }
 
         async function CarregarDados(idProduto, quantidade, preco, id) {
-            let produto = await fetch(`https://localhost:7137/api/Estoque/${idProduto}`)
+            let produto = await fetch(`https://satchel-carry-yard.ngrok-free.dev/api/Estoque/${idProduto}`, {
+                    method: 'GET',
+                    headers: {
+                        'ngrok-skip-browser-warning': 'true' // Isso pula a tela de aviso e mata o erro de CORS
+                    }
+                })
 
             produto = await produto.json()
 
@@ -235,10 +240,10 @@
             if (botao) {
 
                 try {
-                    const resposta = await fetch('https://localhost:7137/api/Carrinho/' + botao.value, {
+                    const resposta = await fetch('https://satchel-carry-yard.ngrok-free.dev/api/Carrinho/' + botao.value, {
                         method: 'DELETE',
                         headers: {
-                            'Content-Type': 'application/json',
+                            'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true',
                             'Authorization': `Bearer ${token}`,
                         }
                     });
@@ -264,10 +269,10 @@
 
 
                 try {
-                    const resposta = await fetch('https://localhost:7137/api/Carrinho/' + id, {
+                    const resposta = await fetch('https://satchel-carry-yard.ngrok-free.dev/api/Carrinho/' + id, {
                         method: 'PATCH',
                         headers: {
-                            'Content-Type': 'application/json',
+                            'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true',
                             'Authorization': `Bearer ${token}`,
                         },
                         body: input.value

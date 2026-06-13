@@ -1,22 +1,37 @@
-/* Geral */
+/* ==========================================================================
+   CONFIGURAÇÕES GERAIS 
+   ========================================================================== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
-
 }
-
 
 body {
-    background-color: #FAFCFB;
-
+    background-color: #FAFCFB; /* Cinza claro */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /* Remove margens padrão se houver */
 }
 
-/* Cabeçalho */
+/* Força a seção principal a crescer e ocupar todo o espaço restante, empurrando o footer para baixo */
+section {
+    flex: 1 0 auto;
+}
+
+/* Mantém o rodapé fixo na base caso o conteúdo seja menor que a tela */
+footer {
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   COMPONENTE: CABEÇALHO (HEADER)
+   ========================================================================== */
 header {
-    background-color: #76C9F5;
+    background-color: #76C9F5; /* Azul bebê */
     margin-bottom: 20px;
 }
 
@@ -24,7 +39,6 @@ header {
     width: 100px;
     border-radius: 100%;
     margin-left: 10%;
-
 }
 
 #button-menu {
@@ -74,7 +88,8 @@ header {
     right: 70px;
 }
 
-#contairner-lista{
+/* CORRIGIDO: Agora o menu fica posicionado abaixo do cabeçalho e não tampa o botão */
+#contairner-lista {
     background-color: #0d3b66;
     border-radius: 20px;
     display: flex;
@@ -82,21 +97,32 @@ header {
     justify-content: center;
     align-items: center;
     width: 300px;
-    padding: 10px;
+    padding: 15px 10px;
     position: absolute;
-    right: 5%;
-    z-index: 100;
+    top: 95px; /* Empurra o menu para baixo do cabeçalho */
+    right: 2%;  /* Alinha melhor com o canto direito da tela */
+    z-index: 2000; /* Garante que fique acima de QUALQUER elemento na tela */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Sombra para dar destaque sobre a página */
 }
 
-#contairner-lista a{
+#contairner-lista a {
     text-decoration: none;
     color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    transition: opacity 0.2s ease;
 }
 
-/* Rodape */
+#contairner-lista a:hover {
+    opacity: 0.8;
+}
 
+/* ==========================================================================
+   COMPONENTE: RODAPÉ (FOOTER)
+   ========================================================================== */
 footer {
-    background-color: #0F3053;
+    background-color: #0F3053; /* Azul escuro */
     color: #fff;
     margin-top: 20px;
     padding-bottom: 10px;
@@ -104,7 +130,7 @@ footer {
 }
 
 footer a {
-    color: #fff
+    color: #fff;
 }
 
 footer img {
@@ -123,8 +149,9 @@ footer img {
     justify-content: center;
 }
 
-/* Filtros */
-
+/* ==========================================================================
+   COMPONENTE: FILTROS DE BUSCA
+   ========================================================================== */
 #container-esquerdo {
     display: flex;
     justify-content: center;
@@ -171,20 +198,20 @@ footer img {
     border-radius: 5px;
 }
 
-/* Cards */
+/* ==========================================================================
+   COMPONENTE: CARDS DE PRODUTOS
+   ========================================================================== */
 #container-card {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
-
     justify-content: center;
     align-items: center;
-
     gap: 20px;
 }
 
 .card {
     border-radius: 20px;
-    background-color: #79E0DC;
+    background-color: #79E0DC; /* Verde água */
 }
 
 .card-img {
@@ -201,8 +228,9 @@ footer img {
     color: black;
 }
 
-/* Login e Cadastro */
-
+/* ==========================================================================
+   ESTRUTURA: LOGIN E CADASTRO
+   ========================================================================== */
 .container {
   display: flex;
   flex-direction: column;
@@ -266,8 +294,8 @@ footer img {
   color: white;
 }
 
-.alert{
-    background: #530F0F;
+.alert {
+  background: #530F0F; /* Vermelho alerta */
   color: white;
 }
 
@@ -280,25 +308,27 @@ button:hover {
   opacity: 0.9;
 }
 
-/* Perfil */
-
-#container-perfil{
+/* ==========================================================================
+   ESTRUTURA: PERFIL DO USUÁRIO
+   ========================================================================== */
+#container-perfil {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 120px;
 }
 
-/* Telas de admin */
-
-.adicionar-admin{
+/* ==========================================================================
+   ESTRUTURA: TELAS DE ADMINISTRAÇÃO (FUNCIONÁRIOS)
+   ========================================================================== */
+.adicionar-admin {
     background-color: #79E0DC;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 20px;
 }
 
-#container-funcionario{
+#container-funcionario {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
     justify-content: center;
@@ -306,84 +336,87 @@ button:hover {
     gap: 20px;
 }
 
-.card-funcionario{
+.card-funcionario {
     background-color: #79E0DC;
     width: 300px;
     height: 200px;
     border-radius: 20px;
 }
 
-.container-input{
+.container-input {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px;
 }
 
-.container-input-botao{
+.container-input-botao {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px;
 }
 
-.botao-salvar{
+.botao-salvar {
     padding: 5px 50px;
     border-radius: 5px;
     background-color: #0F3053;
     color: #fff;
 }
 
-.botao-criar{
+.botao-criar {
     padding: 5px 50px;
     border-radius: 5px;
-    background-color: #009844;
+    background-color: #009844; /* Verde confirma */
     color: #fff;
 }
 
-.usuario-inativo{
+.usuario-inativo {
     padding: 5px 10px;
     background-color: #530F0F;
     color: #fff;
     border-radius: 10px;
 }
-.usuario-ativo{
+
+.usuario-ativo {
     padding: 5px 10px;
     background-color: #009844;
     color: #fff;
     border-radius: 10px;
 }
 
-.input-card-admin{
+.input-card-admin {
     border-radius: 5px;
 }
 
-/* Gestão de produto */
-
-.card-img-gestao{
+/* ==========================================================================
+   ESTRUTURA: GESTÃO DE PRODUTOS
+   ========================================================================== */
+.card-img-gestao {
     width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
 
-.card-produto{
+.card-produto {
     background-color: #79E0DC;
     width: 300px;
     border-radius: 20px;
 }
 
-.container-input-descricao{
+.container-input-descricao {
     margin: 5px 10px;
 }
 
-.input-card-admin-descricao{
+.input-card-admin-descricao {
     width: 100%;
     border-radius: 5px;
     border: black solid 2px;
 }
 
-/* Carrinho */
-
-.container-carrinho{
+/* ==========================================================================
+   ESTRUTURA: CARRINHO DE COMPRAS
+   ========================================================================== */
+.container-carrinho {
     background-color: #0F3053;
     border-radius: 20px;
     width: 350px;
@@ -394,7 +427,7 @@ button:hover {
     margin: 5px;
 }
 
-#container-total-carrinho{
+#container-total-carrinho {
     border: solid 1px black;
     border-radius: 20px;
     display: flex;
@@ -407,39 +440,38 @@ button:hover {
     width: 400px;
 }
 
-.campo-carrinho{
+.campo-carrinho {
     border-radius: 5px;
     margin-left: 5px;
 }
 
-#botao-excluir{
+#botao-excluir {
     border-radius: 15px;
     padding: 5px 10px;
     color: #fff;
     background-color: #530F0F;
 }
 
-#botao-comprar{
+#botao-comprar {
     border-radius: 15px;
     padding: 5px 10px;
     color: #fff;
     background-color: #009844;
 }
 
-.card-carrinho{
+.card-carrinho {
     background-color: #79E0DC;
     border-radius: 20px;
     display: flex;
     width: 80%;
     margin-bottom: 10px;
-    /* margin-right: 20px; */
 }
 
-.card-img-carrinho{
+.card-img-carrinho {
     width: 200px;
 }
 
-.card-link-carrinho{
+.card-link-carrinho {
     display: flex;
     text-decoration: none;
     color: #000;
@@ -449,21 +481,21 @@ button:hover {
     height: 100%;
 }
 
-#container-card-carrinho{
+#container-card-carrinho {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card-carrinho-nome{
+.card-carrinho-nome {
     font-size: 30px;
 }
 
-.carrinho-info{
+.carrinho-info {
     margin: 20px;
 }
 
-.card-carrinho-descricao{
+.card-carrinho-descricao {
     width: 150px;
     display: -webkit-box;
     -webkit-line-clamp: 3;    
@@ -472,12 +504,288 @@ button:hover {
     text-overflow: ellipsis;
 }
 
-.card-carrinho-preco{
+.card-carrinho-preco {
     font-size: 20px;
 }
 
-.carrinho-quantidade{
+.carrinho-quantidade {
     width: 40px;
     border-radius: 5px;
+}
+
+/* ==========================================================================
+   INCREMENTOS: AJUSTES ESPECÍFICOS POR PÁGINA (Adicionado sem duplicar)
+   ========================================================================== */
+
+/* Correções para a Tela de Login */
+.link-botoes {
+    text-decoration: none;
+    display: inline-block; 
+}
+
+.box label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+/* Correções para a Tela de Cadastro */
+.container-cadastro-ajuste {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box input[type="password"] {
+    margin-bottom: 12px; 
+}
+
+/* ==========================================================================
+   INCREMENTOS: AJUSTES ESPECÍFICOS PARA A TELA INDEX (HOME) - CORRIGIDO
+   ========================================================================== */
+
+.header-index-ajuste {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#container-procura {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#lupa {
+    position: absolute;
+    right: 15px;
+    z-index: 10;
+    cursor: pointer;
+    background: none;
+    border: none;
+    width: 35px;
+    height: 35px;
+}
+
+#procura {
+    padding-left: 20px;
+    padding-right: 55px; 
+}
+
+#button-menu {
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#button-menu:hover {
+    background-color: #79BBDE; 
+}
+
+#container-card {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+    gap: 20px;
+    align-items: start; 
+    margin-bottom: 30px;
+}
+
+.layout-principal {
+    min-height: 70vh; 
+}
+
+.card-item-container {
+    display: flex;
+    flex-direction: column;
+    height: auto; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+    overflow: hidden; 
+}
+
+.card-item-container:hover {
+    transform: translateY(-4px);
+}
+
+.card-conteudo-ajuste {
+    padding: 12px;
+}
+
+.card-nome {
+    font-size: 18px;
+    margin: 0 0 5px 0 !important;
+    color: #0F3053;
+}
+
+.card-descricao-ajuste {
+    font-size: 13px;
+    color: #444;
+    margin: 0 0 10px 0 !important;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card-preco-ajuste {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0F3053;
+    margin: 0 !important;
+}
+
+.campo-filtro {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+}
+
+.range {
+    padding: 5px;
+    border: none;
+}
+
+.sessao-footer h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.sessao-footer h5 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* ==========================================================================
+   INCREMENTOS: AJUSTES ESPECÍFICOS PARA A TELA DE DETALHE DE PRODUTO
+   ========================================================================== */
+
+.container-detalhe-produto {
+    border: 1px solid #eef2f5;
+}
+
+.seletor-quantidade {
+    width: 70px !important;
+    display: inline-block !important;
+    padding: 4px 8px;
+    height: auto !important;
+    border: 1px solid #ccc !important;
+}
+
+.campo-label-qtd {
+    font-size: 14px;
+    color: #555;
+}
+
+.preco-destaque {
+    color: #0F3053;
+    font-size: 28px;
+}
+
+@media (max-width: 767.98px) {
+    .w-100-mobile {
+        width: 100% !important;
+        padding: 10px !important;
+    }
+}
+
+/* ==========================================================================
+   INCREMENTOS: AJUSTES ESPECÍFICOS PARA A TELA DE PERFIL
+   ========================================================================== */
+
+#container-perfil-ajuste {
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-botoes-perfil {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.btn-desativar-ajuste {
+    background-color: #530F0F;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-desativar-ajuste:hover {
+    background-color: #c9302c;
+}
+
+/* ==========================================================================
+   INCREMENTOS: AJUSTES ESPECÍFICOS PARA A TELA DE PAGAMENTO (PIX)
+   ========================================================================== */
+
+.container-pagamento {
+    border: 1px solid #eef2f5;
+}
+
+.label-pagamento {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #777;
+    font-weight: bold;
+}
+
+.valor-total-destaque {
+    color: #0F3053;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 2px;
+}
+
+.dados-usuario-pagamento {
+    color: #333;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.btn-qrcode-trigger {
+    background: none !important;
+    border: none !important;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f8f9fa !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-qrcode-trigger:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.qrcode-imagem {
+    width: 180px;
+    height: 180px;
+    display: block;
+}
+
+.label-pix-ajuste {
+    color: #0F3053;
+    font-weight: bold;
+}
+
+.max-w-200 {
+    max-width: 220px;
+    font-size: 12px;
+    line-height: 1.4;
 }
 

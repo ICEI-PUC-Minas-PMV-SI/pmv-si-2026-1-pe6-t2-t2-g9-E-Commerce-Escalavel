@@ -184,7 +184,12 @@
         async function CarregarFuncionarios() {
 
             try {
-                const resposta = await fetch("https://localhost:7137/api/Usuarios")
+                const resposta = await fetch("https://satchel-carry-yard.ngrok-free.dev/api/Usuarios", {
+                    method: 'GET',
+                    headers: {
+                        'ngrok-skip-browser-warning': 'true' // Isso pula a tela de aviso e mata o erro de CORS
+                    }
+                })
 
                 console.log(resposta)
 
@@ -289,10 +294,10 @@
                 const email = botao.closest('.card-funcionario').children[1].children[1].value
 
                 try {
-                    const resposta = await fetch('https://localhost:7137/api/Usuarios', {
+                    const resposta = await fetch('https://satchel-carry-yard.ngrok-free.dev/api/Usuarios', {
                         method: 'POST',
                         headers: {
-                            'Content-Type': 'application/json',
+                            'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true',
                             'Authorization': `Bearer ${token}`,
                         },
                         body: JSON.stringify({
@@ -332,10 +337,10 @@
             if (botao) {
 
                 try {
-                    const resposta = await fetch('https://localhost:7137/api/Usuarios/' + botao.value, {
+                    const resposta = await fetch('https://satchel-carry-yard.ngrok-free.dev/api/Usuarios/' + botao.value, {
                         method: 'DELETE',
                         headers: {
-                            'Content-Type': 'application/json',
+                            'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true',
                             'Authorization': `Bearer ${token}`,
                         }
                     });
@@ -362,10 +367,10 @@
                 const email = botao.closest('.card-funcionario').children[1].children[1].value
 
                 try {
-                    const resposta = await fetch('https://localhost:7137/api/Usuarios/' + botao.value, {
+                    const resposta = await fetch('https://satchel-carry-yard.ngrok-free.dev/api/Usuarios/' + botao.value, {
                         method: 'PUT',
                         headers: {
-                            'Content-Type': 'application/json',
+                            'Content-Type': 'application/json', 'ngrok-skip-browser-warning': 'true',
                             'Authorization': `Bearer ${token}`,
                         },
                         body: JSON.stringify({
