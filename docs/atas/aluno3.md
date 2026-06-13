@@ -21,6 +21,6 @@
 | 18/05 - 24/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 1 | ✅ | Correção e ajustes da Etapa 3 e estudos dos microfundamentos para a Etapa | Sim |
 | 25/05 - 31/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 2 | ✅ | Organização e divisão das atividades da etapa | Sim |
 | 01/06 - 07/06 | Testes - Front-End Mobile | ✅ | Realização dos Testes Mobile e documentação | Sim |
-| 08/06 - 14/06 |  | ⬜ |  |  |
+| 08/06 - 14/06 | Apresentação Final do Projeto | ✅ | Apoio elaboração da apresentação (slides) e apresentação final do projeto | Sim |
 
 **Legenda:** ✅ Estudou | ⬜ Não estudou
