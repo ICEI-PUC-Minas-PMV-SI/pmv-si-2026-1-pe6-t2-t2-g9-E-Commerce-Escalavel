@@ -1,14 +1,16 @@
 import axios from 'axios';
-import { Platform } from 'react-native';
 
-// Configura o IP de acordo com o ambiente que você está testar
-const baseURL = Platform.OS === 'android' 
-  ? 'http://10.0.2.2:5120/api' // Troque o 5123 pela porta REAL do seu ASP.NET
-  : 'https://localhost:7137/api';
+// Substitua pela sua URL fixa do ngrok (sem a barra '/' no final)
+const NGROK_URL = 'https://satchel-carry-yard.ngrok-free.dev'; 
 
 const api = axios.create({
-  baseURL: 'https://localhost:7137/api',
-  timeout: 10000, // Se a API demorar mais de 10 segundos, cancela a requisição
+  baseURL: `${NGROK_URL}/api`,
+  timeout: 10000, // Cancela a requisição se a API demorar mais de 10 segundos
+  headers: {
+    'Content-Type': 'application/json',
+    // Injeta o cabeçalho em TODAS as requisições para burlar o aviso do ngrok e evitar erros
+    'ngrok-skip-browser-warning': 'true' 
+  }
 });
 
 export default api;
