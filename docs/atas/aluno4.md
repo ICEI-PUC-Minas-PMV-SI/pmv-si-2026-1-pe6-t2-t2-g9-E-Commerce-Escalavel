@@ -8,19 +8,19 @@
 | 16/02 - 22/02 | Gestão de Serviços de TI - Unidade 2 | ✅ | Definição dos Temas e Organização dos Grupos | Sim |
 | 23/02 - 01/03 | Arquitetura de Software Distribuído - Unidade 1 e 2 | ✅ | Justificativa e objetivos geral e específicos | Sim |
 | 02/03 - 08/03 | Arquitetura de Software Distribuído - Unidade 3 | ✅ | Ajustes objetivos e justificativa e elaboração do Catálogo de Serviços | Sim |
-| 09/03 - 15/03 | APIs e Web Services - Unidade 1 | ⬜ |  |  |
-| 16/03 - 22/03 | APIs e Web Services - Unidade 2 | ⬜ |  |  |
-| 23/03 - 29/03 | APIs e Web Services - Unidade 2 | ⬜ |  |  |
-| 30/03 - 05/04 | Recuperação de Informação na Web e Redes Sociais - Unidade 1 | ⬜ |  |  |
-| 06/04 - 12/04 | Recuperação de Informação na Web e Redes Sociais - Unidade 2 | ⬜ |  |  |
-| 13/04 - 19/04 | Computação Ubíqua e Pervasiva e IoT - Unidade 1 | ⬜ |  |  |
-| 20/04 - 26/04 | Computação Ubíqua e Pervasiva e IoT - Unidade 2 | ⬜ |  |  |
-| 27/04 - 03/05 | Desenvolvimento de Aplicações Móveis - Unidade 1 | ⬜ |  |  |
-| 04/05 - 10/05 | Desenvolvimento de Aplicações Móveis - Unidade 2 | ⬜ |  |  |
-| 11/05 - 17/05 | Desenvolvimento de Aplicações Móveis - Unidade 2 | ⬜ |  |  |
-| 18/05 - 24/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 1 | ⬜ |  |  |
-| 25/05 - 31/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 2 | ⬜ |  |  |
-| 01/06 - 07/06 |  | ⬜ |  |  |
-| 08/06 - 14/06 |  | ⬜ |  |  |
+| 09/03 - 15/03 | APIs e Web Services - Unidade 1 | ✅ | Correção e Ajustes da Etapa 1 | Sim |
+| 16/03 - 22/03 | APIs e Web Services - Unidade 2 | ✅ | Organização e divisão das atividades da etapa | Sim |
+| 23/03 - 29/03 | APIs e Web Services - Unidade 2 | ✅ | Documentação (APIs e Web Services, Objetivos da API, Modelagem da Aplicação, Tecnologias Utilizadas) | Sim |
+| 30/03 - 05/04 | Recuperação de Informação na Web e Redes Sociais - Unidade 1 | ✅ | Documentação (API Endpoints, Considerações de Segurança e Implantação) | Sim |
+| 06/04 - 12/04 | Recuperação de Informação na Web e Redes Sociais - Unidade 2 | ✅ | Ajustes finais da documentação da Etapa | Sim |
+| 13/04 - 19/04 | Computação Ubíqua e Pervasiva e IoT - Unidade 1 | ✅ | Apresentação Etapa 2 | Sim |
+| 20/04 - 26/04 | Computação Ubíqua e Pervasiva e IoT - Unidade 2 | ✅ | Divisão das Partes | Sim |
+| 27/04 - 03/05 | Desenvolvimento de Aplicações Móveis - Unidade 1 | ✅ | Desenvolvimento API's (Lista de Favoritos, Efetuar Compras, Avaliação de Produtos) | Sim |
+| 04/05 - 10/05 | Desenvolvimento de Aplicações Móveis - Unidade 2 | ✅ | Elaboração da documentação | Sim |
+| 11/05 - 17/05 | Desenvolvimento de Aplicações Móveis - Unidade 2 | ✅ | Apresentação Etapa 3 | Sim |
+| 18/05 - 24/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 1 | ✅ | Correção e ajustes da Etapa 3 e estudos dos microfundamentos para a Etapa | Sim |
+| 25/05 - 31/05 | Fundamentos de Projeto e Análise de Algoritmos - Unidade 2 | ✅ | Organização e divisão das atividades da etapa | Sim |
+| 01/06 - 07/06 |  | ✅ | Documentação Front-end Móvel | Sim |
+| 08/06 - 14/06 |  | ✅ | Aprentação Finald do Projeto - Vídeo | Sim |
 
 **Legenda:** ✅ Estudou | ⬜ Não estudou
