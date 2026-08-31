@@ -1,6 +1,6 @@
 # 📊 Relatório de Contribuições do Projeto
 
-**Última atualização:** 24/08/2026 00:04
+**Última atualização:** 31/08/2026 00:07
 
 ---
 
@@ -11,12 +11,14 @@
 | CassioVenutoMonteiro  |        11 |        73 |        53 |          3 |             11 |               3 |
 | LuisMoura1            |       102 |     28854 |     11184 |        109 |             46 |               7 |
 | Pedro Teixeira        |         8 |       590 |        62 |          5 |              8 |               5 |
-| github-actions[bot]   |       118 |       744 |       708 |          3 |            118 |               1 |
+| github-actions[bot]   |       119 |       749 |       715 |          3 |            119 |               1 |
 | github-classroom[bot] |         1 |      2152 |         0 |         45 |              1 |              13 |
 | paolabraga            |        31 |       419 |       101 |          6 |             31 |               6 |
 
 
 ## 📅 Contribuições Semanais (Todo o Semestre)
+
+**2026-08-17**: github-actions[bot]: 1
 
 **2026-08-10**: github-actions[bot]: 2
 
@@ -36,9 +38,9 @@
 
 **2026-06-15**: github-actions[bot]: 1
 
-**2026-06-08**: LuisMoura1: 22, Pedro Teixeira: 1, github-actions[bot]: 15, paolabraga: 1
+**2026-06-08**: LuisMoura1: 21, Pedro Teixeira: 1, github-actions[bot]: 13, paolabraga: 1
 
-**2026-06-01**: LuisMoura1: 20, Pedro Teixeira: 1, github-actions[bot]: 26, paolabraga: 9
+**2026-06-01**: LuisMoura1: 21, Pedro Teixeira: 1, github-actions[bot]: 28, paolabraga: 9
 
 **2026-05-25**: github-actions[bot]: 1
 
@@ -61,8 +63,6 @@
 **2026-03-23**: LuisMoura1: 4, github-actions[bot]: 4
 
 **2026-03-16**: github-actions[bot]: 1
-
-**2026-03-09**: CassioVenutoMonteiro: 2, LuisMoura1: 2, Pedro Teixeira: 1, paolabraga: 2
 
 
 
